@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="1756503303878374382" name="app_name">"कॅलक्युलेटर"</string>
+    <string msgid="7117143366610670836" name="approximate">"(±1 शेवटच्या अंकात)"</string>
+    <string msgid="2207323593183640994" name="cancelled">"गणना रद्द केली."</string>
+    <string msgid="3952521190281880880" name="cleared">"साफ केले"</string>
+    <string msgid="6730945431543327337" name="clr">"साफ करा"</string>
+    <string msgid="8920102493070918054" name="dec_point">"."</string>
+    <string msgid="5878069000864178910" name="del">"हटवा"</string>
+    <string msgid="3794276256462677914" name="desc_adv_pad">"प्रगत ऑपरेशन"</string>
+    <string msgid="737502124268890797" name="desc_clr">"साफ करा"</string>
+    <string msgid="1889187337970539507" name="desc_const_e">"यूलरची संख्या"</string>
+    <string msgid="5430918714009441655" name="desc_const_pi">"पाय"</string>
+    <string msgid="5725254504360445023" name="desc_dec_point">"बिंदू"</string>
+    <string msgid="7879515781929311432" name="desc_del">"हटवा"</string>
+    <string msgid="3349320880874699285" name="desc_eq">"समान"</string>
+    <string msgid="8056588859637585007" name="desc_formula">"सूत्र नाही"</string>
+    <string msgid="3972646467174520812" name="desc_fun_10pow">"दहा चा घात"</string>
+    <string msgid="7583077865497939123" name="desc_fun_arccos">"व्यस्त कोसाइन"</string>
+    <string msgid="8592309261123302915" name="desc_fun_arcsin">"व्यस्त साइन"</string>
+    <string msgid="6891388393360447455" name="desc_fun_arctan">"व्यस्त टँजंट"</string>
+    <string msgid="3787913784504974731" name="desc_fun_cos">"कोसाइन"</string>
+    <string msgid="657106837530588390" name="desc_fun_exp">"घातांकीय कार्य"</string>
+    <string msgid="2505119732546227166" name="desc_fun_ln">"प्राकृतिक लॉगॅरिथम"</string>
+    <string msgid="4202230639814060062" name="desc_fun_log">"लॉगॅरिथम"</string>
+    <string msgid="7425661271929838876" name="desc_fun_sin">"साइन"</string>
+    <string msgid="3545496562069310036" name="desc_fun_tan">"टँजंट"</string>
+    <string msgid="3672218250519616068" name="desc_inv_off">"व्यस्त कार्ये दर्शवा"</string>
+    <string msgid="2515675590767677178" name="desc_inv_on">"व्यस्त कार्ये लपवा"</string>
+    <string msgid="8688758170211924916" name="desc_lparen">"डावा कंस"</string>
+    <string msgid="4129831241246511710" name="desc_mode_deg">"अंश मोड"</string>
+    <string msgid="730135521908627673" name="desc_mode_rad">"रॅडियन मोड"</string>
+    <string msgid="6208699569165589623" name="desc_navigate_up">"वर नेव्हिगेट करा"</string>
+    <string msgid="515720457459745571" name="desc_num_pad">"संख्या आणि मूलभूत ऑपरेशन"</string>
+    <string msgid="5539599782598050813" name="desc_op_add">"अधिक"</string>
+    <string msgid="3032399266115257498" name="desc_op_div">"भागणे"</string>
+    <string msgid="6142780103294179702" name="desc_op_fact">"क्रमगुणित"</string>
+    <string msgid="6882122010553947015" name="desc_op_mul">"गुणाकार"</string>
+    <string msgid="2466179646911499434" name="desc_op_pct">"टक्के"</string>
+    <string msgid="6010144442344099030" name="desc_op_pow">"घात"</string>
+    <string msgid="693577095029219627" name="desc_op_sqr">"वर्ग"</string>
+    <string msgid="6882241473601721767" name="desc_op_sqrt">"वर्गमूळ"</string>
+    <string msgid="2744940875059679129" name="desc_op_sub">"वजा"</string>
+    <string msgid="1794073190203126821" name="desc_result">"कोणताही परिणाम नाही"</string>
+    <string msgid="7920608385146151731" name="desc_rparen">"उजवा कंस"</string>
+    <string msgid="6675211986921592374" name="desc_switch_deg">"अंशांवर स्विच करा"</string>
+    <string msgid="2845875847488919914" name="desc_switch_rad">"रॅडियनवर स्विच करा"</string>
+    <string msgid="7137395395908350702" name="dialog_clear">"इतिहास आणि मेमरी साफ करायची?"</string>
+    <string msgid="9069768442342329065" name="dialog_timeout">"कालबाह्य"</string>
+    <string msgid="7872443888515066216" name="dismiss">"डिसमिस करा"</string>
+    <string msgid="3402238176316342537" name="error_aborted">"विलोपन केले"</string>
+    <string msgid="5674077944929888710" name="error_nan">"संख्या नाही"</string>
+    <string msgid="7800547394563434764" name="error_overflow">"अपरिमित?"</string>
+    <string msgid="4786987111228645602" name="error_syntax">"खराब पदावली"</string>
+    <string msgid="458040988686661801" name="error_zero_divide">"0 ने भाग देऊ शकत नाही"</string>
+    <string msgid="2597237880041789948" name="exact">"(अचूक)"</string>
+    <string msgid="2336526604226069572" name="menu_clear_history">"साफ करा"</string>
+    <string msgid="1247477377840252234" name="menu_fraction">"अपूर्णांक म्हणून उत्तर"</string>
+    <string msgid="9006222701220105452" name="menu_history">"इतिहास"</string>
+    <string msgid="2338520833272667740" name="menu_leading">"अग्रस्थानी अंकांसह उत्तर"</string>
+    <string msgid="1890541368064108592" name="menu_licenses">"मुक्त स्त्रोत परवाने"</string>
+    <string msgid="1146123354434332479" name="mode_deg">"अंश"</string>
+    <string msgid="1434228830085760996" name="mode_rad">"रॅडियन"</string>
+    <string msgid="4331262030447527188" name="no_history">"इतिहास नाही"</string>
+    <string msgid="8344529153919268011" name="ok_remove_timeout">"दीर्घ कालबाह्य वापरा"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"९९९+"</string>
+    <string msgid="2104264466812485425" name="text_copied_toast">"मजकूर कॉपी केला"</string>
+    <string msgid="5461892570729418573" name="timeout">"मूल्य अमर्यादित असू शकते किंवा ते निर्धारित केलेले नसू शकते."</string>
+    <string msgid="2442754548537900591" name="title_current_expression">"वर्तमान अभिव्यक्ती"</string>
+    <string msgid="7820912156315181539" name="title_history">"इतिहास"</string>
+</resources>

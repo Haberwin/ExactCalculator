@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="1756503303878374382" name="app_name">"કેલ્ક્યુલેટર"</string>
+    <string msgid="7117143366610670836" name="approximate">"(છેલ્લા અંકમાં ±1)"</string>
+    <string msgid="2207323593183640994" name="cancelled">"ગણતરી રદ કરી."</string>
+    <string msgid="3952521190281880880" name="cleared">"સાફ કર્યા"</string>
+    <string msgid="6730945431543327337" name="clr">"clr"</string>
+    <string msgid="8920102493070918054" name="dec_point">"."</string>
+    <string msgid="5878069000864178910" name="del">"del"</string>
+    <string msgid="3794276256462677914" name="desc_adv_pad">"વિગતવાર ઓપરેશન્સ"</string>
+    <string msgid="737502124268890797" name="desc_clr">"સાફ કરો"</string>
+    <string msgid="1889187337970539507" name="desc_const_e">"યુલરનો નંબર"</string>
+    <string msgid="5430918714009441655" name="desc_const_pi">"પાઇ"</string>
+    <string msgid="5725254504360445023" name="desc_dec_point">"પોઇન્ટ"</string>
+    <string msgid="7879515781929311432" name="desc_del">"કાઢી નાખો"</string>
+    <string msgid="3349320880874699285" name="desc_eq">"બરાબર"</string>
+    <string msgid="8056588859637585007" name="desc_formula">"કોઇ ફોર્મૂલા નથી"</string>
+    <string msgid="3972646467174520812" name="desc_fun_10pow">"દસની ઘાત"</string>
+    <string msgid="7583077865497939123" name="desc_fun_arccos">"વ્યસ્ત કોટિજ્યા"</string>
+    <string msgid="8592309261123302915" name="desc_fun_arcsin">"વ્યસ્ત જ્યા"</string>
+    <string msgid="6891388393360447455" name="desc_fun_arctan">"વ્યસ્ત સ્પર્શક"</string>
+    <string msgid="3787913784504974731" name="desc_fun_cos">"કોટિજ્યા"</string>
+    <string msgid="657106837530588390" name="desc_fun_exp">"ઘાતાંકીય કાર્ય"</string>
+    <string msgid="2505119732546227166" name="desc_fun_ln">"પ્રાકૃતિક લઘુગણક"</string>
+    <string msgid="4202230639814060062" name="desc_fun_log">"લઘુગણક"</string>
+    <string msgid="7425661271929838876" name="desc_fun_sin">"જ્યા"</string>
+    <string msgid="3545496562069310036" name="desc_fun_tan">"સ્પર્શક"</string>
+    <string msgid="3672218250519616068" name="desc_inv_off">"વ્યુત્ક્રમ કાર્ય બતાવો"</string>
+    <string msgid="2515675590767677178" name="desc_inv_on">"વ્યુત્ક્રમ કાર્ય છુપાવો"</string>
+    <string msgid="8688758170211924916" name="desc_lparen">"ડાબો કૌંસ"</string>
+    <string msgid="4129831241246511710" name="desc_mode_deg">"ડિગ્રી મોડ"</string>
+    <string msgid="730135521908627673" name="desc_mode_rad">"સમત્રિજ્યાકોણ મોડ"</string>
+    <string msgid="6208699569165589623" name="desc_navigate_up">"ઉપર નેવિગેટ કરો"</string>
+    <string msgid="515720457459745571" name="desc_num_pad">"નંબરો અને મૂળભૂત ઓપરેશન્સ"</string>
+    <string msgid="5539599782598050813" name="desc_op_add">"સરવાળો"</string>
+    <string msgid="3032399266115257498" name="desc_op_div">"ભાગાકાર"</string>
+    <string msgid="6142780103294179702" name="desc_op_fact">"ફેક્ટોરિઅલ"</string>
+    <string msgid="6882122010553947015" name="desc_op_mul">"ગુણાકાર"</string>
+    <string msgid="2466179646911499434" name="desc_op_pct">"ટકા"</string>
+    <string msgid="6010144442344099030" name="desc_op_pow">"ઘાત"</string>
+    <string msgid="693577095029219627" name="desc_op_sqr">"વર્ગાકાર"</string>
+    <string msgid="6882241473601721767" name="desc_op_sqrt">"વર્ગમૂળ"</string>
+    <string msgid="2744940875059679129" name="desc_op_sub">"બાદબાકી"</string>
+    <string msgid="1794073190203126821" name="desc_result">"કોઈ પરિણામ નથી"</string>
+    <string msgid="7920608385146151731" name="desc_rparen">"જમણો કૌંસ"</string>
+    <string msgid="6675211986921592374" name="desc_switch_deg">"ડિગ્રી પર સ્વિચ કરો"</string>
+    <string msgid="2845875847488919914" name="desc_switch_rad">"સમત્રિજ્યાકોણ પર સ્વિચ કરો"</string>
+    <string msgid="7137395395908350702" name="dialog_clear">"ઇતિહાસ અને મેમરી સાફ કરીએ?"</string>
+    <string msgid="9069768442342329065" name="dialog_timeout">"સમયસમાપ્તિ"</string>
+    <string msgid="7872443888515066216" name="dismiss">"છોડી દો"</string>
+    <string msgid="3402238176316342537" name="error_aborted">"રદ કરેલ"</string>
+    <string msgid="5674077944929888710" name="error_nan">"કોઈ સંખ્યા નથી"</string>
+    <string msgid="7800547394563434764" name="error_overflow">"અનંત?"</string>
+    <string msgid="4786987111228645602" name="error_syntax">"ખોટી પદાવલિ"</string>
+    <string msgid="458040988686661801" name="error_zero_divide">"0 દ્વારા ભાગાકાર કરી શકતાં નથી"</string>
+    <string msgid="2597237880041789948" name="exact">"(ચોક્કસ)"</string>
+    <string msgid="2336526604226069572" name="menu_clear_history">"સાફ કરો"</string>
+    <string msgid="1247477377840252234" name="menu_fraction">"અપૂર્ણાંક તરીકે જવાબ"</string>
+    <string msgid="9006222701220105452" name="menu_history">"ઇતિહાસ"</string>
+    <string msgid="2338520833272667740" name="menu_leading">"આગળ વાળા અંકો સાથે જવાબ"</string>
+    <string msgid="1890541368064108592" name="menu_licenses">"ઓપન સૉર્સ લાઇસન્સ"</string>
+    <string msgid="1146123354434332479" name="mode_deg">"deg"</string>
+    <string msgid="1434228830085760996" name="mode_rad">"rad"</string>
+    <string msgid="4331262030447527188" name="no_history">"કોઇ ઇતિહાસ નથી"</string>
+    <string msgid="8344529153919268011" name="ok_remove_timeout">"લાંબી સમયસમાપ્તિનો ઉપયોગ કરો"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="2104264466812485425" name="text_copied_toast">"ટેક્સ્ટ કૉપિ કરી"</string>
+    <string msgid="5461892570729418573" name="timeout">"મૂલ્ય અનિશ્ચિત અથવા અવ્યાખ્યાયિત હોઈ શકે છે."</string>
+    <string msgid="2442754548537900591" name="title_current_expression">"વર્તમાન સમીકરણ"</string>
+    <string msgid="7820912156315181539" name="title_history">"ઇતિહાસ"</string>
+</resources>

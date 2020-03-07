@@ -1,0 +1,4 @@
+#Sat Mar 07 15:03:01 CST 2020
+base.0=/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

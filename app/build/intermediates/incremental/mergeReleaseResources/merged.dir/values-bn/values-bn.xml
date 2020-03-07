@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="1756503303878374382" name="app_name">"ক্যালকুলেটর"</string>
+    <string msgid="7117143366610670836" name="approximate">"(±১ শেষের ডিজিটের মধ্যে)"</string>
+    <string msgid="2207323593183640994" name="cancelled">"গণনা করা বাতিল করা হয়েছে৷"</string>
+    <string msgid="3952521190281880880" name="cleared">"সাফ করা হয়েছে"</string>
+    <string msgid="6730945431543327337" name="clr">"clr"</string>
+    <string msgid="8920102493070918054" name="dec_point">"."</string>
+    <string msgid="5878069000864178910" name="del">"সাফ"</string>
+    <string msgid="3794276256462677914" name="desc_adv_pad">"উন্নত ক্রিয়াকলাপ"</string>
+    <string msgid="737502124268890797" name="desc_clr">"সাফ করুন"</string>
+    <string msgid="1889187337970539507" name="desc_const_e">"ইউলার সংখ্যা"</string>
+    <string msgid="5430918714009441655" name="desc_const_pi">"পাই"</string>
+    <string msgid="5725254504360445023" name="desc_dec_point">"পয়েন্ট"</string>
+    <string msgid="7879515781929311432" name="desc_del">"মুছুন"</string>
+    <string msgid="3349320880874699285" name="desc_eq">"সমান চিহ্ন"</string>
+    <string msgid="8056588859637585007" name="desc_formula">"কোনো সূত্র নেই"</string>
+    <string msgid="3972646467174520812" name="desc_fun_10pow">"দশ গুণ শক্তি"</string>
+    <string msgid="7583077865497939123" name="desc_fun_arccos">"বিপরীত কোসাইন"</string>
+    <string msgid="8592309261123302915" name="desc_fun_arcsin">"বিপরীত সাইন"</string>
+    <string msgid="6891388393360447455" name="desc_fun_arctan">"বিপরীত ট্যানজেন্ট"</string>
+    <string msgid="3787913784504974731" name="desc_fun_cos">"কোসাইন"</string>
+    <string msgid="657106837530588390" name="desc_fun_exp">"ব্যাখ্যামূলক ক্রিয়াকলাপ"</string>
+    <string msgid="2505119732546227166" name="desc_fun_ln">"স্বাভাবিক লগারিদম"</string>
+    <string msgid="4202230639814060062" name="desc_fun_log">"লগারিদম"</string>
+    <string msgid="7425661271929838876" name="desc_fun_sin">"সাইন"</string>
+    <string msgid="3545496562069310036" name="desc_fun_tan">"ট্যানজেন্ট"</string>
+    <string msgid="3672218250519616068" name="desc_inv_off">"বিপরীত ক্রিয়াকলাপ দেখান"</string>
+    <string msgid="2515675590767677178" name="desc_inv_on">"বিপরীত ক্রিয়াকলাপ লুকান"</string>
+    <string msgid="8688758170211924916" name="desc_lparen">"বাঁ লঘুবন্ধনী"</string>
+    <string msgid="4129831241246511710" name="desc_mode_deg">"ডিগ্রী মোড"</string>
+    <string msgid="730135521908627673" name="desc_mode_rad">"রেডিয়ান মোড"</string>
+    <string msgid="6208699569165589623" name="desc_navigate_up">"উপরে নেভিগেট করুন"</string>
+    <string msgid="515720457459745571" name="desc_num_pad">"নম্বর এবং মৌলিক ক্রিয়াকলাপ"</string>
+    <string msgid="5539599782598050813" name="desc_op_add">"যোগ চিহ্ন"</string>
+    <string msgid="3032399266115257498" name="desc_op_div">"ভাগ চিহ্ন"</string>
+    <string msgid="6142780103294179702" name="desc_op_fact">"গৌণিক"</string>
+    <string msgid="6882122010553947015" name="desc_op_mul">"গুণ"</string>
+    <string msgid="2466179646911499434" name="desc_op_pct">"শতাংশ"</string>
+    <string msgid="6010144442344099030" name="desc_op_pow">"পাওয়ার"</string>
+    <string msgid="693577095029219627" name="desc_op_sqr">"ছক"</string>
+    <string msgid="6882241473601721767" name="desc_op_sqrt">"বর্গমূল"</string>
+    <string msgid="2744940875059679129" name="desc_op_sub">"বিয়োগ চিহ্ন"</string>
+    <string msgid="1794073190203126821" name="desc_result">"কোনো ফলাফল নেই"</string>
+    <string msgid="7920608385146151731" name="desc_rparen">"ডান লঘুবন্ধনী"</string>
+    <string msgid="6675211986921592374" name="desc_switch_deg">"ডিগ্রীতে পাল্টান"</string>
+    <string msgid="2845875847488919914" name="desc_switch_rad">"রেডিয়ানে পাল্টান"</string>
+    <string msgid="7137395395908350702" name="dialog_clear">"ইতিহাস এবং মেমরি সাফ করবেন?"</string>
+    <string msgid="9069768442342329065" name="dialog_timeout">"সময় সমাপ্ত"</string>
+    <string msgid="7872443888515066216" name="dismiss">"খারিজ করুন"</string>
+    <string msgid="3402238176316342537" name="error_aborted">"বাতিল করা হয়েছে"</string>
+    <string msgid="5674077944929888710" name="error_nan">"একটি সংখ্যা নয়"</string>
+    <string msgid="7800547394563434764" name="error_overflow">"অসীম?"</string>
+    <string msgid="4786987111228645602" name="error_syntax">"খারাপ এক্সপ্রেশন"</string>
+    <string msgid="458040988686661801" name="error_zero_divide">"0 দিয়ে শেয়ার করা যাবে না"</string>
+    <string msgid="2597237880041789948" name="exact">"(যথাযথ)"</string>
+    <string msgid="2336526604226069572" name="menu_clear_history">"সাফ করুন"</string>
+    <string msgid="1247477377840252234" name="menu_fraction">"ভগ্নাংশ হিসাবে উত্তর"</string>
+    <string msgid="9006222701220105452" name="menu_history">"ইতিহাস"</string>
+    <string msgid="2338520833272667740" name="menu_leading">"লিডিং সংখ্যায় উত্তর"</string>
+    <string msgid="1890541368064108592" name="menu_licenses">"ওপেন সোর্স লাইসেন্স"</string>
+    <string msgid="1146123354434332479" name="mode_deg">"deg"</string>
+    <string msgid="1434228830085760996" name="mode_rad">"rad"</string>
+    <string msgid="4331262030447527188" name="no_history">"কোনো ইতিহাস নেই"</string>
+    <string msgid="8344529153919268011" name="ok_remove_timeout">"দীর্ঘক্ষণ সময় সমাপ্ত ব্যবহার করুন"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"৯৯৯+"</string>
+    <string msgid="2104264466812485425" name="text_copied_toast">"পাঠ্য প্রতিলিপি হয়েছে"</string>
+    <string msgid="5461892570729418573" name="timeout">"মূল্য অসীম বা অনির্ধারিত হতে পারে।"</string>
+    <string msgid="2442754548537900591" name="title_current_expression">"বর্তমান এক্সপ্রেশন"</string>
+    <string msgid="7820912156315181539" name="title_history">"ইতিহাস"</string>
+</resources>

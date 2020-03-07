@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="1756503303878374382" name="app_name">"கணிப்பான்"</string>
+    <string msgid="7117143366610670836" name="approximate">"(கடைசி இலக்கத்தில் ±1)"</string>
+    <string msgid="2207323593183640994" name="cancelled">"கணக்கீடு ரத்துசெய்யப்பட்டது."</string>
+    <string msgid="3952521190281880880" name="cleared">"அழிக்கப்பட்டது"</string>
+    <string msgid="6730945431543327337" name="clr">"அழி"</string>
+    <string msgid="8920102493070918054" name="dec_point">"."</string>
+    <string msgid="5878069000864178910" name="del">"நீக்கு"</string>
+    <string msgid="3794276256462677914" name="desc_adv_pad">"மேம்பட்ட செயல்பாடுகள்"</string>
+    <string msgid="737502124268890797" name="desc_clr">"அழி"</string>
+    <string msgid="1889187337970539507" name="desc_const_e">"ஆய்லரின் எண்"</string>
+    <string msgid="5430918714009441655" name="desc_const_pi">"பை"</string>
+    <string msgid="5725254504360445023" name="desc_dec_point">"புள்ளி"</string>
+    <string msgid="7879515781929311432" name="desc_del">"நீக்கு"</string>
+    <string msgid="3349320880874699285" name="desc_eq">"சமம்"</string>
+    <string msgid="8056588859637585007" name="desc_formula">"சூத்திரம் இல்லை"</string>
+    <string msgid="3972646467174520812" name="desc_fun_10pow">"பத்தின் அடுக்கு"</string>
+    <string msgid="7583077865497939123" name="desc_fun_arccos">"தலைகீழ் கோசைன்"</string>
+    <string msgid="8592309261123302915" name="desc_fun_arcsin">"தலைகீழ் சைன்"</string>
+    <string msgid="6891388393360447455" name="desc_fun_arctan">"தலைகீழ் டேன்ஜென்ட்"</string>
+    <string msgid="3787913784504974731" name="desc_fun_cos">"கோசைன்"</string>
+    <string msgid="657106837530588390" name="desc_fun_exp">"அடுக்கைச் சார்பு"</string>
+    <string msgid="2505119732546227166" name="desc_fun_ln">"இயல் மடக்கை"</string>
+    <string msgid="4202230639814060062" name="desc_fun_log">"மடக்கை"</string>
+    <string msgid="7425661271929838876" name="desc_fun_sin">"சைன்"</string>
+    <string msgid="3545496562069310036" name="desc_fun_tan">"டேன்ஜென்ட்"</string>
+    <string msgid="3672218250519616068" name="desc_inv_off">"நேர்மாறு சார்புகளைக் காட்டு"</string>
+    <string msgid="2515675590767677178" name="desc_inv_on">"நேர்மாறு சார்புகளை மறை"</string>
+    <string msgid="8688758170211924916" name="desc_lparen">"இடது அடைப்புக்குறி"</string>
+    <string msgid="4129831241246511710" name="desc_mode_deg">"டிகிரி பயன்முறை"</string>
+    <string msgid="730135521908627673" name="desc_mode_rad">"ரேடியன் பயன்முறை"</string>
+    <string msgid="6208699569165589623" name="desc_navigate_up">"மேலே செல்"</string>
+    <string msgid="515720457459745571" name="desc_num_pad">"எண்களும் அடிப்படை செயல்பாடுகளும்"</string>
+    <string msgid="5539599782598050813" name="desc_op_add">"கூட்டல்"</string>
+    <string msgid="3032399266115257498" name="desc_op_div">"வகுத்தல்"</string>
+    <string msgid="6142780103294179702" name="desc_op_fact">"காரணியப் பெருக்கம்"</string>
+    <string msgid="6882122010553947015" name="desc_op_mul">"பெருக்கல்"</string>
+    <string msgid="2466179646911499434" name="desc_op_pct">"சதவீதக்குறி"</string>
+    <string msgid="6010144442344099030" name="desc_op_pow">"அடுக்கு"</string>
+    <string msgid="693577095029219627" name="desc_op_sqr">"வர்க்கம்"</string>
+    <string msgid="6882241473601721767" name="desc_op_sqrt">"வர்க்க மூலம்"</string>
+    <string msgid="2744940875059679129" name="desc_op_sub">"கழித்தல்"</string>
+    <string msgid="1794073190203126821" name="desc_result">"முடிவு இல்லை"</string>
+    <string msgid="7920608385146151731" name="desc_rparen">"வலது அடைப்புக்குறி"</string>
+    <string msgid="6675211986921592374" name="desc_switch_deg">"டிகிரிகளுக்கு மாறு"</string>
+    <string msgid="2845875847488919914" name="desc_switch_rad">"ரேடியன்களுக்கு மாறு"</string>
+    <string msgid="7137395395908350702" name="dialog_clear">"ஹிஸ்டரி &amp; மெமரியை அழிக்கவா?"</string>
+    <string msgid="9069768442342329065" name="dialog_timeout">"நேரம் முடிந்தது"</string>
+    <string msgid="7872443888515066216" name="dismiss">"விலக்கு"</string>
+    <string msgid="3402238176316342537" name="error_aborted">"நிறுத்தப்பட்டது"</string>
+    <string msgid="5674077944929888710" name="error_nan">"எண் அல்ல"</string>
+    <string msgid="7800547394563434764" name="error_overflow">"முடிவிலியா?"</string>
+    <string msgid="4786987111228645602" name="error_syntax">"தவறான கோவை"</string>
+    <string msgid="458040988686661801" name="error_zero_divide">"0 ஆல் வகுக்க முடியாது"</string>
+    <string msgid="2597237880041789948" name="exact">"(சரியாக)"</string>
+    <string msgid="2336526604226069572" name="menu_clear_history">"அழி"</string>
+    <string msgid="1247477377840252234" name="menu_fraction">"பின்னமாகப் பதிலளி"</string>
+    <string msgid="9006222701220105452" name="menu_history">"வரலாறு"</string>
+    <string msgid="2338520833272667740" name="menu_leading">"முன்னிலை இலக்கங்களுடன் பதிலளி"</string>
+    <string msgid="1890541368064108592" name="menu_licenses">"ஓப்பன் சோர்ஸ் உரிமங்கள்"</string>
+    <string msgid="1146123354434332479" name="mode_deg">"டிகிரி"</string>
+    <string msgid="1434228830085760996" name="mode_rad">"ரேடியன்"</string>
+    <string msgid="4331262030447527188" name="no_history">"வரலாறு இல்லை"</string>
+    <string msgid="8344529153919268011" name="ok_remove_timeout">"நீண்ட, நேர முடிவுகளைப் பயன்படுத்து"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="2104264466812485425" name="text_copied_toast">"உரை நகலெடுக்கப்பட்டது"</string>
+    <string msgid="5461892570729418573" name="timeout">"மதிப்பு முடிவிலியாக அல்லது வரையறுக்கப்படாததாக இருக்கலாம்."</string>
+    <string msgid="2442754548537900591" name="title_current_expression">"தற்போதைய எக்ஸ்பிரஷன்"</string>
+    <string msgid="7820912156315181539" name="title_history">"வரலாறு"</string>
+</resources>

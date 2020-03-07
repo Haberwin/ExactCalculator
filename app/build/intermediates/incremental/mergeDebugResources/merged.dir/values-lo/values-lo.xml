@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="1756503303878374382" name="app_name">"ຈັກຄິດໄລ່"</string>
+    <string msgid="7117143366610670836" name="approximate">"(±1 ໃນ​ຕົວ​ເລກ​ສຸດ​ທ້າຍ)"</string>
+    <string msgid="2207323593183640994" name="cancelled">"ຍົກເລີກການຄຳນວນແລ້ວ."</string>
+    <string msgid="3952521190281880880" name="cleared">"ລ້າງ​ແລ້ວ"</string>
+    <string msgid="6730945431543327337" name="clr">"ລຶບລ້າງ"</string>
+    <string msgid="8920102493070918054" name="dec_point">"."</string>
+    <string msgid="5878069000864178910" name="del">"ລຶບ"</string>
+    <string msgid="3794276256462677914" name="desc_adv_pad">"ຄຳສັ່ງຂັ້ນສູງ"</string>
+    <string msgid="737502124268890797" name="desc_clr">"ລຶບ​ລ້າງ"</string>
+    <string msgid="1889187337970539507" name="desc_const_e">"ຈຳ​ນວນ​ຄ່າ​ຄົງ​ທີ່"</string>
+    <string msgid="5430918714009441655" name="desc_const_pi">"​ປີ່"</string>
+    <string msgid="5725254504360445023" name="desc_dec_point">"​ຈ້ຳ​ເມັດ"</string>
+    <string msgid="7879515781929311432" name="desc_del">"ລຶບ"</string>
+    <string msgid="3349320880874699285" name="desc_eq">"ເທົ່າກັບ"</string>
+    <string msgid="8056588859637585007" name="desc_formula">"ບໍ່ມີສູດຄຳນວນ"</string>
+    <string msgid="3972646467174520812" name="desc_fun_10pow">"ສິບ​ກຳ​ລັງ"</string>
+    <string msgid="7583077865497939123" name="desc_fun_arccos">"cosine ປີ້ນ"</string>
+    <string msgid="8592309261123302915" name="desc_fun_arcsin">"sine ປີ້ນ"</string>
+    <string msgid="6891388393360447455" name="desc_fun_arctan">"tangent ປີ້ນ"</string>
+    <string msgid="3787913784504974731" name="desc_fun_cos">"cosine"</string>
+    <string msgid="657106837530588390" name="desc_fun_exp">"ຟັງ​ຄ໌​ຊັນ​ເອັກ​ໂປ​ເນັນ​ຊຽ​ວ"</string>
+    <string msgid="2505119732546227166" name="desc_fun_ln">"ໂລ​ກາ​ຣິ​ດ​ທຳ​ມະ​ຊາດ"</string>
+    <string msgid="4202230639814060062" name="desc_fun_log">"​ໂລ​ກາ​ຣິ​ດ"</string>
+    <string msgid="7425661271929838876" name="desc_fun_sin">"sine"</string>
+    <string msgid="3545496562069310036" name="desc_fun_tan">"tangent"</string>
+    <string msgid="3672218250519616068" name="desc_inv_off">"ສະ​ແດງ​ຟັງ​ຄ໌​ຊັນ​ທີ່​ຈຸ່ມ​ລົງ"</string>
+    <string msgid="2515675590767677178" name="desc_inv_on">"ເຊື່ອງ​ຟັງ​ຄ໌​ຊັນ​ທີ່​ຈຸ່ມ​ລົງ"</string>
+    <string msgid="8688758170211924916" name="desc_lparen">"ວົງເລັບຊ້າຍ"</string>
+    <string msgid="4129831241246511710" name="desc_mode_deg">"ໂໝດ​ອົງ​ສາ"</string>
+    <string msgid="730135521908627673" name="desc_mode_rad">"ໂໝດ​ຣາ​ດຽງ"</string>
+    <string msgid="6208699569165589623" name="desc_navigate_up">"ເລື່ອນຂຶ້ນໄປເທິງ"</string>
+    <string msgid="515720457459745571" name="desc_num_pad">"ຄຳສັ່ງພື້ນຖານ ແລະ ຕົວເລກ"</string>
+    <string msgid="5539599782598050813" name="desc_op_add">"ບວກ"</string>
+    <string msgid="3032399266115257498" name="desc_op_div">"ຫານ"</string>
+    <string msgid="6142780103294179702" name="desc_op_fact">"ແຟັກໂຕຣຽວ"</string>
+    <string msgid="6882122010553947015" name="desc_op_mul">"ຄູນ"</string>
+    <string msgid="2466179646911499434" name="desc_op_pct">"ເປີເຊັນ"</string>
+    <string msgid="6010144442344099030" name="desc_op_pow">"ກຳ​ລັງ"</string>
+    <string msgid="693577095029219627" name="desc_op_sqr">"ຂັ້ນ​ສອງ"</string>
+    <string msgid="6882241473601721767" name="desc_op_sqrt">"ຮາກຂັ້ນ​ສອງ"</string>
+    <string msgid="2744940875059679129" name="desc_op_sub">"ລົບ"</string>
+    <string msgid="1794073190203126821" name="desc_result">"ບໍ່ມີຜົນການຊອກຫາ"</string>
+    <string msgid="7920608385146151731" name="desc_rparen">"ວົງເລັບຂວາ"</string>
+    <string msgid="6675211986921592374" name="desc_switch_deg">"ສັບ​ປ່ຽນ​ເປັນ​ອົງ​ສາ"</string>
+    <string msgid="2845875847488919914" name="desc_switch_rad">"ສັບ​ປ່ຽນ​ເປັນ​ຣາ​ດຽງ"</string>
+    <string msgid="7137395395908350702" name="dialog_clear">"ລຶບລ້າງປະຫວັດ ແລະ ຄວາມຈຳອອກບໍ?"</string>
+    <string msgid="9069768442342329065" name="dialog_timeout">"ໝົດເວລາ"</string>
+    <string msgid="7872443888515066216" name="dismiss">"ປິດໄວ້"</string>
+    <string msgid="3402238176316342537" name="error_aborted">"ລົບ​ລ້າງ"</string>
+    <string msgid="5674077944929888710" name="error_nan">"ບໍ່​ແມ່ນ​ໂຕ​ເລກ"</string>
+    <string msgid="7800547394563434764" name="error_overflow">"ອະ​ສົງ​ໄຂ​ບໍ?"</string>
+    <string msgid="4786987111228645602" name="error_syntax">"ສຳ​ນວນ​ບໍ່​ດີ"</string>
+    <string msgid="458040988686661801" name="error_zero_divide">"ບໍ່​ສາ​ມາດ​ຫານ​ດ້ວຍ 0 ໄດ້"</string>
+    <string msgid="2597237880041789948" name="exact">"(ແນ່ນອນ)"</string>
+    <string msgid="2336526604226069572" name="menu_clear_history">"ລຶບລ້າງ"</string>
+    <string msgid="1247477377840252234" name="menu_fraction">"ຄຳ​ຕອບ​ເປັນ​ເສດ​ສ່ວນ"</string>
+    <string msgid="9006222701220105452" name="menu_history">"ປະຫວັດ"</string>
+    <string msgid="2338520833272667740" name="menu_leading">"ຄຳຕອບເປັນຕົວເລກນຳ"</string>
+    <string msgid="1890541368064108592" name="menu_licenses">"​ລິ​ຂະ​ສິດ​ໂອ​ເພນ​ຊອດ"</string>
+    <string msgid="1146123354434332479" name="mode_deg">"ອົງ​ສາ"</string>
+    <string msgid="1434228830085760996" name="mode_rad">"ຣາ​ດຽງ"</string>
+    <string msgid="4331262030447527188" name="no_history">"ບໍ່ມີປະຫວັດ"</string>
+    <string msgid="8344529153919268011" name="ok_remove_timeout">"ໃຊ້​ການ​ໝົດ​ເວ​ລາ​ດົນ​ຂຶ້ນ"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="2104264466812485425" name="text_copied_toast">"ອັດ​ສຳ​ເນົາ​ຂໍ້​ຄວາມ​ແລ້ວ"</string>
+    <string msgid="5461892570729418573" name="timeout">"ຄ່າອາດເປັນອະສົງໄຂ ຫຼື ບໍ່ໄດ້ລະບຸ."</string>
+    <string msgid="2442754548537900591" name="title_current_expression">"ເອັກເພຣສຊັນປັດຈຸບັນ"</string>
+    <string msgid="7820912156315181539" name="title_history">"ປະຫວັດ"</string>
+</resources>

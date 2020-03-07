@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="desc_pad_pages" translatable="false">
+        <item>@string/desc_num_pad</item>
+        <item>@string/desc_adv_pad</item>
+    </string-array>
+    <attr format="reference" name="coordinatorLayoutStyle"/>
+    <attr format="reference" name="recyclerViewStyle"/>
+    <color name="calculator_accent_color">#0097A7</color>
+    <color name="calculator_error_color">#C2185B</color>
+    <color name="calculator_primary_color">#00BCD4</color>
+    <color name="calculator_statusbar_color">#0096A9</color>
+    <color name="display_background_color">#FFF</color>
+    <color name="display_formula_text_color">#000000</color>
+    <color name="display_result_exponent_text_color">#40000000</color>
+    <color name="display_result_text_color">#6C000000</color>
+    <color name="empty_history_color">#EEEEEE</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="pad_advanced_background_color">#1DE9B6</color>
+    <color name="pad_button_advanced_ripple_color">#1A000000</color>
+    <color name="pad_button_advanced_text_color">#99000000</color>
+    <color name="pad_button_ripple_color">#33FFFFFF</color>
+    <color name="pad_button_text_color">#FFF</color>
+    <color name="pad_numeric_background_color">#434343</color>
+    <color name="pad_operator_background_color">#636363</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
+    <dimen name="compat_button_inset_vertical_material">6dp</dimen>
+    <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="compat_button_padding_vertical_material">4dp</dimen>
+    <dimen name="compat_control_corner_material">2dp</dimen>
+    <dimen name="compat_notification_large_icon_max_height">320dp</dimen>
+    <dimen name="compat_notification_large_icon_max_width">320dp</dimen>
+    <dimen name="default_gap">8dip</dimen>
+    <dimen name="fastscroll_default_thickness">8dp</dimen>
+    <dimen name="fastscroll_margin">0dp</dimen>
+    <dimen name="fastscroll_minimum_range">50dp</dimen>
+    <dimen name="formula_max_textsize">28dip</dimen>
+    <dimen name="formula_min_textsize">28dip</dimen>
+    <dimen name="formula_padding_bottom">8dip</dimen>
+    <dimen name="formula_padding_end">16dip</dimen>
+    <dimen name="formula_padding_start">16dip</dimen>
+    <dimen name="formula_padding_top">0dip</dimen>
+    <dimen name="formula_step_textsize">8dip</dimen>
+    <dimen name="history_divider_padding">14dip</dimen>
+    <dimen name="history_item_text_padding_bottom">16dip</dimen>
+    <dimen name="history_item_text_padding_top">8dip</dimen>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+    <dimen name="notification_action_icon_size">32dp</dimen>
+    <dimen name="notification_action_text_size">13sp</dimen>
+    <dimen name="notification_big_circle_margin">12dp</dimen>
+    <dimen name="notification_content_margin_start">8dp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_main_column_padding_top">10dp</dimen>
+    <dimen name="notification_media_narrow_margin">@dimen/notification_content_margin_start</dimen>
+    <dimen name="notification_right_icon_size">16dp</dimen>
+    <dimen name="notification_right_side_padding_top">2dp</dimen>
+    <dimen name="notification_small_icon_background_padding">3dp</dimen>
+    <dimen name="notification_small_icon_size_as_large">24dp</dimen>
+    <dimen name="notification_subtext_size">13sp</dimen>
+    <dimen name="notification_top_pad">10dp</dimen>
+    <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="pad_page_margin">24dip</dimen>
+    <dimen name="result_padding_bottom">8dip</dimen>
+    <dimen name="result_padding_end">16dip</dimen>
+    <dimen name="result_padding_start">16dip</dimen>
+    <dimen name="result_padding_top">0dip</dimen>
+    <dimen name="result_textsize">28dip</dimen>
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item name="accessibility_action_clickable_span" type="id"/>
+    <item name="accessibility_custom_action_0" type="id"/>
+    <item name="accessibility_custom_action_1" type="id"/>
+    <item name="accessibility_custom_action_10" type="id"/>
+    <item name="accessibility_custom_action_11" type="id"/>
+    <item name="accessibility_custom_action_12" type="id"/>
+    <item name="accessibility_custom_action_13" type="id"/>
+    <item name="accessibility_custom_action_14" type="id"/>
+    <item name="accessibility_custom_action_15" type="id"/>
+    <item name="accessibility_custom_action_16" type="id"/>
+    <item name="accessibility_custom_action_17" type="id"/>
+    <item name="accessibility_custom_action_18" type="id"/>
+    <item name="accessibility_custom_action_19" type="id"/>
+    <item name="accessibility_custom_action_2" type="id"/>
+    <item name="accessibility_custom_action_20" type="id"/>
+    <item name="accessibility_custom_action_21" type="id"/>
+    <item name="accessibility_custom_action_22" type="id"/>
+    <item name="accessibility_custom_action_23" type="id"/>
+    <item name="accessibility_custom_action_24" type="id"/>
+    <item name="accessibility_custom_action_25" type="id"/>
+    <item name="accessibility_custom_action_26" type="id"/>
+    <item name="accessibility_custom_action_27" type="id"/>
+    <item name="accessibility_custom_action_28" type="id"/>
+    <item name="accessibility_custom_action_29" type="id"/>
+    <item name="accessibility_custom_action_3" type="id"/>
+    <item name="accessibility_custom_action_30" type="id"/>
+    <item name="accessibility_custom_action_31" type="id"/>
+    <item name="accessibility_custom_action_4" type="id"/>
+    <item name="accessibility_custom_action_5" type="id"/>
+    <item name="accessibility_custom_action_6" type="id"/>
+    <item name="accessibility_custom_action_7" type="id"/>
+    <item name="accessibility_custom_action_8" type="id"/>
+    <item name="accessibility_custom_action_9" type="id"/>
+    <item name="item_touch_helper_previous_elevation" type="id"/>
+    <item name="line1" type="id"/>
+    <item name="line3" type="id"/>
+    <item name="tag_accessibility_actions" type="id"/>
+    <item name="tag_accessibility_clickable_spans" type="id"/>
+    <item name="tag_accessibility_heading" type="id"/>
+    <item name="tag_accessibility_pane_title" type="id"/>
+    <item name="tag_screen_reader_focusable" type="id"/>
+    <item name="tag_transition_group" type="id"/>
+    <item name="tag_unhandled_key_event_manager" type="id"/>
+    <item name="tag_unhandled_key_listeners" type="id"/>
+    <item name="text" type="id"/>
+    <item name="text2" type="id"/>
+    <item name="title" type="id"/>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <item name="activity_calculator" type="layout">@layout/activity_calculator_port</item>
+    <item name="display" type="layout">@layout/display_one_line</item>
+    <item name="pad_advanced" type="layout">@layout/pad_advanced_4x4</item>
+    <item name="pad_operator" type="layout">@layout/pad_operator_one_col</item>
+    <string name="app_name">Calculator</string>
+    <string name="approximate">(±1 in last digit)</string>
+    <string name="cancelled">Computation cancelled.</string>
+    <string name="cleared">cleared</string>
+    <string name="clr">clr</string>
+    <string name="const_e" translatable="false">e</string>
+    <string name="const_pi" translatable="false">π</string>
+    <string name="dec_point">.</string>
+    <string name="del">del</string>
+    <string name="desc_adv_pad">Advanced operations</string>
+    <string name="desc_clr">clear</string>
+    <string name="desc_const_e">Euler\'s number</string>
+    <string name="desc_const_pi">pi</string>
+    <string name="desc_dec_point">point</string>
+    <string name="desc_del">delete</string>
+    <string name="desc_eq">equals</string>
+    <string name="desc_formula">No formula</string>
+    <string name="desc_fun_10pow">ten to the power of</string>
+    <string name="desc_fun_arccos">inverse cosine</string>
+    <string name="desc_fun_arcsin">inverse sine</string>
+    <string name="desc_fun_arctan">inverse tangent</string>
+    <string name="desc_fun_cos">cosine</string>
+    <string name="desc_fun_exp">exponential function</string>
+    <string name="desc_fun_ln">natural logarithm</string>
+    <string name="desc_fun_log">logarithm</string>
+    <string name="desc_fun_sin">sine</string>
+    <string name="desc_fun_tan">tangent</string>
+    <string name="desc_inv_off">show inverse functions</string>
+    <string name="desc_inv_on">hide inverse functions</string>
+    <string name="desc_lparen">left parenthesis</string>
+    <string name="desc_mode_deg">degree mode</string>
+    <string name="desc_mode_rad">radian mode</string>
+    <string name="desc_navigate_up">Navigate up</string>
+    <string name="desc_num_pad">Numbers and basic operations</string>
+    <string name="desc_op_add">plus</string>
+    <string name="desc_op_div">divide</string>
+    <string name="desc_op_fact">factorial</string>
+    <string name="desc_op_mul">multiply</string>
+    <string name="desc_op_pct">percent</string>
+    <string name="desc_op_pow">power</string>
+    <string name="desc_op_sqr">squared</string>
+    <string name="desc_op_sqrt">square root</string>
+    <string name="desc_op_sub">minus</string>
+    <string name="desc_result">No result</string>
+    <string name="desc_rparen">right parenthesis</string>
+    <string name="desc_switch_deg">switch to degrees</string>
+    <string name="desc_switch_rad">switch to radians</string>
+    <string name="dialog_clear">Clear history and memory?</string>
+    <string name="dialog_timeout">Timeout</string>
+    <string name="digit_0" translatable="false">0</string>
+    <string name="digit_1" translatable="false">1</string>
+    <string name="digit_2" translatable="false">2</string>
+    <string name="digit_3" translatable="false">3</string>
+    <string name="digit_4" translatable="false">4</string>
+    <string name="digit_5" translatable="false">5</string>
+    <string name="digit_6" translatable="false">6</string>
+    <string name="digit_7" translatable="false">7</string>
+    <string name="digit_8" translatable="false">8</string>
+    <string name="digit_9" translatable="false">9</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="eq" translatable="false">=</string>
+    <string name="error_aborted">Aborted</string>
+    <string name="error_nan">Not a number</string>
+    <string name="error_overflow">Infinite?</string>
+    <string name="error_syntax">Bad expression</string>
+    <string name="error_zero_divide">Can\'t divide by 0</string>
+    <string name="exact">(exact)</string>
+    <string name="exponential" translatable="false">exp</string>
+    <string name="fun_10pow" translatable="false">10\u02E3</string>
+    <string name="fun_arccos" translatable="false">cos\u207B\u00B9</string>
+    <string name="fun_arcsin" translatable="false">sin\u207B\u00B9</string>
+    <string name="fun_arctan" translatable="false">tan\u207B\u00B9</string>
+    <string name="fun_cos" translatable="false">cos</string>
+    <string name="fun_exp" translatable="false">e\u02E3</string>
+    <string name="fun_ln" translatable="false">ln</string>
+    <string name="fun_log" translatable="false">log</string>
+    <string name="fun_sin" translatable="false">sin</string>
+    <string name="fun_tan" translatable="false">tan</string>
+    <string name="inv" translatable="false">inv</string>
+    <string name="lparen" translatable="false">(</string>
+    <string name="memory_add" translatable="false">M+</string>
+    <string name="memory_recall" translatable="false">MR</string>
+    <string name="memory_store" translatable="false">MS</string>
+    <string name="memory_subtract" translatable="false">M\u2212</string>
+    <string name="menu_clear_history">Clear</string>
+    <string name="menu_fraction">Answer as fraction</string>
+    <string name="menu_history">History</string>
+    <string name="menu_leading">Answer with leading digits</string>
+    <string name="menu_licenses">Open source licenses</string>
+    <string name="mode_deg">deg</string>
+    <string name="mode_rad">rad</string>
+    <string name="no_history">No History</string>
+    <string name="ok_remove_timeout">Use longer timeouts</string>
+    <string name="op_add" translatable="false">+</string>
+    <string name="op_div" translatable="false">÷</string>
+    <string name="op_fact" translatable="false">!</string>
+    <string name="op_mul" translatable="false">×</string>
+    <string name="op_pct" translatable="false">%</string>
+    <string name="op_pow" translatable="false">^</string>
+    <string name="op_sqr" translatable="false">x\u00B2</string>
+    <string name="op_sqrt" translatable="false">√</string>
+    <string name="op_sub" translatable="false">−</string>
+    <string name="rparen" translatable="false">)</string>
+    <string name="squared" translatable="false">²</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="text_copied_toast">Text copied</string>
+    <string name="timeout">Value may be infinite or undefined.</string>
+    <string name="title_current_expression">Current Expression</string>
+    <string name="title_history">History</string>
+    <style name="DisplayTextStyle" parent="@android:style/Widget.Material.Light.TextView">
+        <item name="android:cursorVisible">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:gravity">bottom|end</item>
+        <item name="android:textAlignment">viewEnd</item>
+    </style>
+    <style name="DisplayTextStyle.Formula">
+        <item name="android:paddingTop">@dimen/formula_padding_top</item>
+        <item name="android:paddingBottom">@dimen/formula_padding_bottom</item>
+        <item name="android:paddingStart">@dimen/formula_padding_start</item>
+        <item name="android:paddingEnd">@dimen/formula_padding_end</item>
+        <item name="android:gravity">bottom</item>
+        <item name="minTextSize">@dimen/formula_min_textsize</item>
+        <item name="maxTextSize">@dimen/formula_max_textsize</item>
+        <item name="stepTextSize">@dimen/formula_step_textsize</item>
+    </style>
+    <style name="DisplayTextStyle.Result">
+        <item name="android:paddingTop">@dimen/result_padding_top</item>
+        <item name="android:paddingBottom">@dimen/result_padding_bottom</item>
+        <item name="android:paddingStart">@dimen/result_padding_start</item>
+        <item name="android:paddingEnd">@dimen/result_padding_end</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textSize">@dimen/result_textsize</item>
+    </style>
+    <style name="HistoryItemTextStyle" parent="DisplayTextStyle">
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:paddingTop">@dimen/history_item_text_padding_top</item>
+        <item name="android:paddingBottom">@dimen/history_item_text_padding_bottom</item>
+        <!-- Note: result_padding_start == formula_padding_start. -->
+        <item name="android:paddingStart">@dimen/result_padding_start</item>
+        <item name="android:paddingEnd">@dimen/result_padding_end</item>
+        <item name="android:textSize">@dimen/result_textsize</item>
+    </style>
+    <style name="PadButtonStyle" parent="@android:style/Widget.Material.Light.Button.Borderless">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:background">@drawable/pad_button_background</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:minWidth">0dip</item>
+        <item name="android:minHeight">0dip</item>
+        <item name="android:onClick">onButtonClick</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/pad_button_text_color</item>
+
+        <!-- Attributes from androidx.appcompat.gridlayout -->
+        <item name="layout_gravity">fill</item>
+        <item name="layout_rowWeight">1</item>
+        <item name="layout_columnWeight">1</item>
+    </style>
+    <style name="PadButtonStyle.Advanced">
+        <item name="android:background">@drawable/pad_button_advanced_background</item>
+        <item name="android:textColor">@color/pad_button_advanced_text_color</item>
+        <item name="android:textSize">14dip</item>
+    </style>
+    <style name="PadButtonStyle.Advanced.Text">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">12dip</item>
+    </style>
+    <style name="PadButtonStyle.Numeric">
+        <item name="android:textSize">16dip</item>
+    </style>
+    <style name="PadButtonStyle.Numeric.Equals">
+        <item name="android:visibility">visible</item>
+    </style>
+    <style name="PadButtonStyle.Operator">
+        <item name="android:textSize">14dip</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Text">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">12dip</item>
+    </style>
+    <style name="PadLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="PadLayoutStyle.Advanced">
+        <item name="android:elevation">4dip</item>
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:paddingBottom">8dip</item>
+        <item name="android:paddingStart">18dip</item>
+        <item name="android:paddingEnd">18dip</item>
+    </style>
+    <style name="PadLayoutStyle.Numeric">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">7</item>
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:paddingBottom">8dip</item>
+        <item name="android:paddingStart">8dip</item>
+        <item name="android:paddingEnd">8dip</item>
+    </style>
+    <style name="PadLayoutStyle.Operator">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:paddingBottom">8dip</item>
+        <item name="android:paddingStart">4dip</item>
+        <item name="android:paddingEnd">28dip</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="Theme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/calculator_primary_color</item>
+        <item name="android:colorAccent">@color/calculator_accent_color</item>
+        <item name="android:statusBarColor">@color/calculator_accent_color</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+    </style>
+    <style name="Theme.Calculator">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layoutDirection">ltr</item>
+    </style>
+    <style name="Theme.Licenses">
+        <item name="android:title">@string/menu_licenses</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionContainer" parent=""/>
+    <style name="Widget.Compat.NotificationActionText" parent=""/>
+    <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
+        <item name="statusBarBackground">#000000</item>
+    </style>
+    <declare-styleable name="CalculatorFormula">
+        <attr format="dimension" name="minTextSize"/>
+        <attr format="dimension" name="maxTextSize"/>
+        <attr format="dimension" name="stepTextSize"/>
+    </declare-styleable>
+    <declare-styleable name="ColorStateListItem">
+        <!-- Base color for this state. -->
+        <attr name="android:color"/>
+        <!-- Alpha multiplier applied to the base color. -->
+        <attr format="float" name="alpha"/>
+        <attr name="android:alpha"/>
+    </declare-styleable>
+    <declare-styleable name="CoordinatorLayout">
+        <!-- A reference to an array of integers representing the
+             locations of horizontal keylines in dp from the starting edge.
+             Child views can refer to these keylines for alignment using
+             layout_keyline="index" where index is a 0-based index into
+             this array. -->
+        <attr format="reference" name="keylines"/>
+        <!-- Drawable to display behind the status bar when the view is set to draw behind it. -->
+        <attr format="color|reference" name="statusBarBackground"/>
+    </declare-styleable>
+    <declare-styleable name="CoordinatorLayout_Layout">
+        <attr name="android:layout_gravity"/>
+        <!-- The class name of a Behavior class defining special runtime behavior
+             for this child view. -->
+        <attr format="string" name="layout_behavior"/>
+        <!-- The id of an anchor view that this view should position relative to. -->
+        <attr format="reference" name="layout_anchor"/>
+        <!-- The index of a keyline this view should position relative to.
+             android:layout_gravity will affect how the view aligns to the
+             specified keyline. -->
+        <attr format="integer" name="layout_keyline"/>
+
+        <!-- Specifies how an object should position relative to an anchor, on both the X and Y axes,
+             within its parent's bounds.  -->
+        <attr name="layout_anchorGravity">
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30"/>
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50"/>
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03"/>
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05"/>
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10"/>
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70"/>
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01"/>
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07"/>
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11"/>
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77"/>
+            <!-- Additional option that can be set to have the top and/or bottom edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the vertical gravity: a top gravity will clip the bottom
+                 edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
+            <flag name="clip_vertical" value="0x80"/>
+            <!-- Additional option that can be set to have the left and/or right edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the horizontal gravity: a left gravity will clip the right
+                 edge, a right gravity will clip the left edge, and neither will clip both edges. -->
+            <flag name="clip_horizontal" value="0x08"/>
+            <!-- Push object to the beginning of its container, not changing its size. -->
+            <flag name="start" value="0x00800003"/>
+            <!-- Push object to the end of its container, not changing its size. -->
+            <flag name="end" value="0x00800005"/>
+        </attr>
+
+        <!-- Specifies how this view insets the CoordinatorLayout and make some other views
+             dodge it. -->
+        <attr format="enum" name="layout_insetEdge">
+            <!-- Don't inset. -->
+            <enum name="none" value="0x0"/>
+            <!-- Inset the top edge. -->
+            <enum name="top" value="0x30"/>
+            <!-- Inset the bottom edge. -->
+            <enum name="bottom" value="0x50"/>
+            <!-- Inset the left edge. -->
+            <enum name="left" value="0x03"/>
+            <!-- Inset the right edge. -->
+            <enum name="right" value="0x05"/>
+            <!-- Inset the start edge. -->
+            <enum name="start" value="0x00800003"/>
+            <!-- Inset the end edge. -->
+            <enum name="end" value="0x00800005"/>
+        </attr>
+        <!-- Specifies how this view dodges the inset edges of the CoordinatorLayout. -->
+        <attr name="layout_dodgeInsetEdges">
+            <!-- Don't dodge any edges -->
+            <flag name="none" value="0x0"/>
+            <!-- Dodge the top inset edge. -->
+            <flag name="top" value="0x30"/>
+            <!-- Dodge the bottom inset edge. -->
+            <flag name="bottom" value="0x50"/>
+            <!-- Dodge the left inset edge. -->
+            <flag name="left" value="0x03"/>
+            <!-- Dodge the right inset edge. -->
+            <flag name="right" value="0x05"/>
+            <!-- Dodge the start inset edge. -->
+            <flag name="start" value="0x00800003"/>
+            <!-- Dodge the end inset edge. -->
+            <flag name="end" value="0x00800005"/>
+            <!-- Dodge all the inset edges. -->
+            <flag name="all" value="0x77"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="FontFamily">
+        <!-- The authority of the Font Provider to be used for the request. -->
+        <attr format="string" name="fontProviderAuthority"/>
+        <!-- The package for the Font Provider to be used for the request. This is used to verify
+        the identity of the provider. -->
+        <attr format="string" name="fontProviderPackage"/>
+        <!-- The query to be sent over to the provider. Refer to your font provider's documentation
+        on the format of this string. -->
+        <attr format="string" name="fontProviderQuery"/>
+        <!-- The sets of hashes for the certificates the provider should be signed with. This is
+        used to verify the identity of the provider, and is only required if the provider is not
+        part of the system image. This value may point to one list or a list of lists, where each
+        individual list represents one collection of signature hashes. Refer to your font provider's
+        documentation for these values. -->
+        <attr format="reference" name="fontProviderCerts"/>
+        <!-- The strategy to be used when fetching font data from a font provider in XML layouts.
+        This attribute is ignored when the resource is loaded from code, as it is equivalent to the
+        choice of API between {@link
+    androidx.core.content.res.ResourcesCompat#getFont(Context, int)} (blocking) and
+        {@link
+    androidx.core.content.res.ResourcesCompat#getFont(Context, int, FontCallback, Handler)}
+        (async). -->
+        <attr name="fontProviderFetchStrategy">
+            <!-- The blocking font fetch works as follows.
+              First, check the local cache, then if the requested font is not cached, request the
+              font from the provider and wait until it is finished.  You can change the length of
+              the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
+              default typeface will be used instead. -->
+            <enum name="blocking" value="0"/>
+            <!-- The async font fetch works as follows.
+              First, check the local cache, then if the requeted font is not cached, trigger a
+              request the font and continue with layout inflation. Once the font fetch succeeds, the
+              target text view will be refreshed with the downloaded font data. The
+              fontProviderFetchTimeout will be ignored if async loading is specified. -->
+            <enum name="async" value="1"/>
+        </attr>
+        <!-- The length of the timeout during fetching. -->
+        <attr format="integer" name="fontProviderFetchTimeout">
+            <!-- A special value for the timeout. In this case, the blocking font fetching will not
+              timeout and wait until a reply is received from the font provider. -->
+            <enum name="forever" value="-1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="FontFamilyFont">
+        <!-- The style of the given font file. This will be used when the font is being loaded into
+         the font stack and will override any style information in the font's header tables. If
+         unspecified, the value in the font's header tables will be used. -->
+        <attr name="fontStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+        </attr>
+        <!-- The reference to the font file to be used. This should be a file in the res/font folder
+         and should therefore have an R reference value. E.g. @font/myfont -->
+        <attr format="reference" name="font"/>
+        <!-- The weight of the given font file. This will be used when the font is being loaded into
+         the font stack and will override any weight information in the font's header tables. Must
+         be a positive number, a multiple of 100, and between 100 and 900, inclusive. The most
+         common values are 400 for regular weight and 700 for bold weight. If unspecified, the value
+         in the font's header tables will be used. -->
+        <attr format="integer" name="fontWeight"/>
+        <!-- The variation settings to be applied to the font. The string should be in the following
+         format: "'tag1' value1, 'tag2' value2, ...". If the default variation settings should be
+         used, or the font used does not support variation settings, this attribute needs not be
+         specified. -->
+        <attr format="string" name="fontVariationSettings"/>
+        <!-- The index of the font in the tcc font file. If the font file referenced is not in the
+        tcc format, this attribute needs not be specified. -->
+        <attr format="integer" name="ttcIndex"/>
+        <!-- References to the framework attrs -->
+        <attr name="android:fontStyle"/>
+        <attr name="android:font"/>
+        <attr name="android:fontWeight"/>
+        <attr name="android:fontVariationSettings"/>
+        <attr name="android:ttcIndex"/>
+    </declare-styleable>
+    <declare-styleable name="GradientColor">
+        <!-- Start color of the gradient. -->
+        <attr name="android:startColor"/>
+        <!-- Optional center color. -->
+        <attr name="android:centerColor"/>
+        <!-- End color of the gradient. -->
+        <attr name="android:endColor"/>
+        <!-- Type of gradient. The default type is linear. -->
+        <attr name="android:type"/>
+
+        <!-- Only applied to RadialGradient-->
+        <!-- Radius of the gradient, used only with radial gradient. -->
+        <attr name="android:gradientRadius"/>
+
+        <!-- Only applied to SweepGradient / RadialGradient-->
+        <!-- X coordinate of the center of the gradient within the path. -->
+        <attr name="android:centerX"/>
+        <!-- Y coordinate of the center of the gradient within the path. -->
+        <attr name="android:centerY"/>
+
+        <!-- LinearGradient specific -->
+        <!-- X coordinate of the start point origin of the gradient.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:startX"/>
+        <!-- Y coordinate of the start point of the gradient within the shape.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:startY"/>
+        <!-- X coordinate of the end point origin of the gradient.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:endX"/>
+        <!-- Y coordinate of the end point of the gradient within the shape.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:endY"/>
+
+        <!-- Defines the tile mode of the gradient. SweepGradient doesn't support tiling. -->
+        <attr name="android:tileMode"/>
+    </declare-styleable>
+    <declare-styleable name="GradientColorItem">
+        <!-- The offset (or ratio) of this current color item inside the gradient.
+             The value is only meaningful when it is between 0 and 1. -->
+        <attr name="android:offset"/>
+        <!-- The current color for the offset inside the gradient. -->
+        <attr name="android:color"/>
+    </declare-styleable>
+    <declare-styleable name="GridLayout">
+
+        <!--
+              support versions. All attributes not present in ViewGroup/View are
+              redefined in the support library namespace.
+        -->
+
+
+        <!--
+        The orientation property is not used during layout. It is only used to
+        allocate row and column parameters when they are not specified by its children's
+        layout parameters. GridLayout works like LinearLayout in this case;
+        putting all the components either in a single row or in a single column -
+        depending on the value of this flag. In the horizontal case, a columnCount
+        property may be additionally supplied to force new rows to be created when a
+        row is full. The rowCount attribute may be used similarly in the vertical case.
+        The default is horizontal.
+        -->
+        <attr name="orientation">
+
+            <!-- Defines an horizontal widget. -->
+            <enum name="horizontal" value="0"/>
+            <!-- Defines a vertical widget. -->
+            <enum name="vertical" value="1"/>
+        </attr>
+        <!-- The maximum number of rows to create when automatically positioning children. -->
+        <attr format="integer" name="rowCount"/>
+        <!-- The maximum number of columns to create when automatically positioning children. -->
+        <attr format="integer" name="columnCount"/>
+        <!--
+        When set to true, tells GridLayout to use default margins when none are specified
+        in a view's layout parameters.
+        The default value is false.
+        See {@link android.widget.GridLayout#setUseDefaultMargins(boolean)}.
+        -->
+        <attr format="boolean" name="useDefaultMargins"/>
+        <!--
+        When set to alignMargins, causes alignment to take place between the outer
+        boundary of a view, as defined by its margins. When set to alignBounds,
+        causes alignment to take place between the edges of the view.
+        The default is alignMargins.
+        See {@link android.widget.GridLayout#setAlignmentMode(int)}.
+        -->
+        <attr name="alignmentMode">
+
+            <!--
+            Align the bounds of the children.
+            See {@link android.widget.GridLayout#ALIGN_BOUNDS}.
+            -->
+            <enum name="alignBounds" value="0"/>
+            <!--
+            Align the margins of the children.
+            See {@link android.widget.GridLayout#ALIGN_MARGINS}.
+            -->
+            <enum name="alignMargins" value="1"/>
+        </attr>
+        <!--
+        When set to true, forces row boundaries to appear in the same order
+        as row indices.
+        The default is true.
+        See {@link android.widget.GridLayout#setRowOrderPreserved(boolean)}.
+        -->
+        <attr format="boolean" name="rowOrderPreserved"/>
+        <!--
+        When set to true, forces column boundaries to appear in the same order
+        as column indices.
+        The default is true.
+        See {@link android.widget.GridLayout#setColumnOrderPreserved(boolean)}.
+        -->
+        <attr format="boolean" name="columnOrderPreserved"/>
+    </declare-styleable>
+    <declare-styleable name="GridLayout_Layout">
+
+        <!--
+              support versions. All attributes not present in MarginLayout are
+              redefined in the support library name space.
+        -->
+
+
+        <!-- START MarginLayout layoutparams -->
+
+        <attr name="android:layout_width"/>
+        <attr name="android:layout_height"/>
+        <!--
+              Specifies extra space on the left, top, right and bottom
+              sides of this view. This space is outside this view's bounds.
+        -->
+        <attr name="android:layout_margin"/>
+        <!--
+              Specifies extra space on the left side of this view.
+              This space is outside this view's bounds.
+        -->
+        <attr name="android:layout_marginLeft"/>
+        <!--
+              Specifies extra space on the top side of this view.
+              This space is outside this view's bounds.
+        -->
+        <attr name="android:layout_marginTop"/>
+        <!--
+              Specifies extra space on the right side of this view.
+              This space is outside this view's bounds.
+        -->
+        <attr name="android:layout_marginRight"/>
+        <!--
+              Specifies extra space on the bottom side of this view.
+              This space is outside this view's bounds.
+        -->
+        <attr name="android:layout_marginBottom"/>
+
+        <!-- END MarginLayout layoutparams -->
+
+        <!--
+        The row boundary delimiting the top of the group of cells
+        occupied by this view.
+        -->
+        <attr format="integer" name="layout_row"/>
+        <!--
+        The row span: the difference between the top and bottom
+        boundaries delimiting the group of cells occupied by this view.
+        The default is one.
+        See {@link android.widget.GridLayout.Spec}.
+        -->
+        <attr format="integer" min="1" name="layout_rowSpan"/>
+        <!-- The relative proportion of vertical space that should be allocated to this view
+        during excess space distribution. -->
+        <attr format="float" name="layout_rowWeight"/>
+        <!--
+        The column boundary delimiting the left of the group of cells
+        occupied by this view.
+        -->
+        <attr format="integer" name="layout_column"/>
+        <!--
+        The column span: the difference between the right and left
+        boundaries delimiting the group of cells occupied by this view.
+        The default is one.
+        See {@link android.widget.GridLayout.Spec}.
+        -->
+        <attr format="integer" min="1" name="layout_columnSpan"/>
+        <!-- The relative proportion of horizontal space that should be allocated to this view
+        during excess space distribution. -->
+        <attr format="float" name="layout_columnWeight"/>
+        <!--
+        Gravity specifies how a component should be placed in its group of cells.
+        The default is LEFT | BASELINE.
+        See {@link android.widget.GridLayout.LayoutParams#setGravity(int)}.
+        -->
+        <attr name="layout_gravity">
+
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30"/>
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50"/>
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03"/>
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05"/>
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10"/>
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70"/>
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01"/>
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07"/>
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11"/>
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77"/>
+            <!--
+             Additional option that can be set to have the top and/or bottom edges of
+             the child clipped to its container's bounds.
+             The clip will be based on the vertical gravity: a top gravity will clip the bottom
+             edge, a bottom gravity will clip the top edge, and neither will clip both edges.
+            -->
+            <flag name="clip_vertical" value="0x80"/>
+            <!--
+             Additional option that can be set to have the left and/or right edges of
+             the child clipped to its container's bounds.
+             The clip will be based on the horizontal gravity: a left gravity will clip the right
+             edge, a right gravity will clip the left edge, and neither will clip both edges.
+            -->
+            <flag name="clip_horizontal" value="0x08"/>
+            <!-- Push object to the beginning of its container, not changing its size. -->
+            <flag name="start" value="0x00800003"/>
+            <!-- Push object to the end of its container, not changing its size. -->
+            <flag name="end" value="0x00800005"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="RecyclerView">
+        <!-- Class name of the Layout Manager to be used.
+        <p/>
+        The class must ext androidx.recyclerview.widget.RecyclerViewView$LayoutManager
+        and have either a default constructor or constructor with the signature
+        (android.content.Context, android.util.AttributeSet, int, int).
+         <p/>
+         If the name starts with a '.', application package is prefixed.
+         Else, if the name contains a '.', the classname is assumed to be a full class name.
+         Else, the recycler view package naandroidx.appcompat.widgetdget) is prefixed. -->
+        <attr format="string" name="layoutManager"/>
+
+        <!-- ============================= -->
+        <!-- Attributes for Layout Manager -->
+        <!-- ============================= -->
+        <eat-comment/>
+
+        <attr name="android:orientation"/>
+        <attr name="android:descendantFocusability"/>
+        <attr name="android:clipToPadding"/>
+        <attr format="integer" name="spanCount"/>
+        <attr format="boolean" name="reverseLayout"/>
+        <attr format="boolean" name="stackFromEnd"/>
+        <attr format="boolean" name="fastScrollEnabled"/>
+        <attr format="reference" name="fastScrollVerticalThumbDrawable"/>
+        <attr format="reference" name="fastScrollVerticalTrackDrawable"/>
+        <attr format="reference" name="fastScrollHorizontalThumbDrawable"/>
+        <attr format="reference" name="fastScrollHorizontalTrackDrawable"/>
+    </declare-styleable>
+</resources>

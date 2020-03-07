@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="1756503303878374382" name="app_name">"କାଲକୁଲେଟର୍"</string>
+    <string msgid="7117143366610670836" name="approximate">"(ଶେଷ ଅଙ୍କରେ ±1)"</string>
+    <string msgid="2207323593183640994" name="cancelled">"ଗଣନାକୁ କ୍ୟାନ୍ସଲ୍ କରିଦିଆଗଲା।"</string>
+    <string msgid="3952521190281880880" name="cleared">"ଖାଲି କରିଦିଆଗଲା"</string>
+    <string msgid="6730945431543327337" name="clr">"clr"</string>
+    <string msgid="8920102493070918054" name="dec_point">"."</string>
+    <string msgid="5878069000864178910" name="del">"Del"</string>
+    <string msgid="3794276256462677914" name="desc_adv_pad">"ଉନ୍ନତ ସଂଚାଳନ"</string>
+    <string msgid="737502124268890797" name="desc_clr">"ଖାଲି କରନ୍ତୁ"</string>
+    <string msgid="1889187337970539507" name="desc_const_e">"ୟୁଲର୍‌ଙ୍କ ସଂଖ୍ୟା"</string>
+    <string msgid="5430918714009441655" name="desc_const_pi">"ପାଇ"</string>
+    <string msgid="5725254504360445023" name="desc_dec_point">"ବିନ୍ଦୁ"</string>
+    <string msgid="7879515781929311432" name="desc_del">"ଡିଲିଟ୍‍ କରନ୍ତୁ"</string>
+    <string msgid="3349320880874699285" name="desc_eq">"ସମାନ"</string>
+    <string msgid="8056588859637585007" name="desc_formula">"କୌଣସି ଫର୍ମୁଲା ନାହିଁ"</string>
+    <string msgid="3972646467174520812" name="desc_fun_10pow">"ଦଶର ଘାତ ହେଉଛି"</string>
+    <string msgid="7583077865497939123" name="desc_fun_arccos">"ଇନ୍‌ଭର୍ସ କୋସାଇନ୍"</string>
+    <string msgid="8592309261123302915" name="desc_fun_arcsin">"ଇନ୍‌ଭର୍ସ ସାଇନ୍"</string>
+    <string msgid="6891388393360447455" name="desc_fun_arctan">"ଇନ୍‌ଭର୍ସ ଟାଞ୍ଜେଣ୍ଟ"</string>
+    <string msgid="3787913784504974731" name="desc_fun_cos">"କୋସାଇନ୍"</string>
+    <string msgid="657106837530588390" name="desc_fun_exp">"ଘାତାଙ୍କ କାର୍ଯ୍ୟ"</string>
+    <string msgid="2505119732546227166" name="desc_fun_ln">"ପ୍ରାକୃତିକ ଲଗାରିଦମ"</string>
+    <string msgid="4202230639814060062" name="desc_fun_log">"ଲଗାରିଦମ"</string>
+    <string msgid="7425661271929838876" name="desc_fun_sin">"ସାଇନ୍"</string>
+    <string msgid="3545496562069310036" name="desc_fun_tan">"ଟାଞ୍ଜେଣ୍ଟ"</string>
+    <string msgid="3672218250519616068" name="desc_inv_off">"ଇନ୍‌ଭର୍ସ କାର୍ଯ୍ୟ ଦେଖାନ୍ତୁ"</string>
+    <string msgid="2515675590767677178" name="desc_inv_on">"ଇନ୍‌ଭର୍ସ କାର୍ଯ୍ୟ ଲୁଚାନ୍ତୁ"</string>
+    <string msgid="8688758170211924916" name="desc_lparen">"ବାମ ଚନ୍ଦ୍ରବନ୍ଧନୀ"</string>
+    <string msgid="4129831241246511710" name="desc_mode_deg">"ଡିଗ୍ରୀ ମୋଡ୍"</string>
+    <string msgid="730135521908627673" name="desc_mode_rad">"ରେଡିଆନ୍ ମୋଡ୍"</string>
+    <string msgid="6208699569165589623" name="desc_navigate_up">"ଉପରକୁ ନାଭିଗେଟ୍ କରନ୍ତୁ"</string>
+    <string msgid="515720457459745571" name="desc_num_pad">"ସଂଖ୍ୟା ଓ ମୌଳିକ ସଂଚାଳନ"</string>
+    <string msgid="5539599782598050813" name="desc_op_add">"ଯୁକ୍ତ"</string>
+    <string msgid="3032399266115257498" name="desc_op_div">"ହରଣ"</string>
+    <string msgid="6142780103294179702" name="desc_op_fact">"କ୍ରମଗୁଣନ"</string>
+    <string msgid="6882122010553947015" name="desc_op_mul">"ଗୁଣନ"</string>
+    <string msgid="2466179646911499434" name="desc_op_pct">"ଶତକଡ଼ା"</string>
+    <string msgid="6010144442344099030" name="desc_op_pow">"ଘାତ"</string>
+    <string msgid="693577095029219627" name="desc_op_sqr">"ବର୍ଗ"</string>
+    <string msgid="6882241473601721767" name="desc_op_sqrt">"ବର୍ଗମୂଳ"</string>
+    <string msgid="2744940875059679129" name="desc_op_sub">"ବିଯୁକ୍ତ"</string>
+    <string msgid="1794073190203126821" name="desc_result">"କୌଣସି ପରିଣାମ ନାହିଁ"</string>
+    <string msgid="7920608385146151731" name="desc_rparen">"ଡାହାଣ ଚନ୍ଦ୍ରବନ୍ଧନୀ"</string>
+    <string msgid="6675211986921592374" name="desc_switch_deg">"ଡିଗ୍ରୀକୁ ଯାଆନ୍ତୁ"</string>
+    <string msgid="2845875847488919914" name="desc_switch_rad">"ରେଡିଆନ୍ସକୁ ଯାଆନ୍ତୁ"</string>
+    <string msgid="7137395395908350702" name="dialog_clear">"ହିଷ୍ଟୋରୀ ଓ ମେମୋରୀ ଖାଲି କରିବେ?"</string>
+    <string msgid="9069768442342329065" name="dialog_timeout">"ସମୟ ସମାପ୍ତ"</string>
+    <string msgid="7872443888515066216" name="dismiss">"ଖାରଜ କରନ୍ତୁ"</string>
+    <string msgid="3402238176316342537" name="error_aborted">"ବନ୍ଦ କରିଦିଆଗଲା"</string>
+    <string msgid="5674077944929888710" name="error_nan">"ଗୋଟିଏ ସଂଖ୍ୟା ନୁହେଁ"</string>
+    <string msgid="7800547394563434764" name="error_overflow">"ଅସୀମିତ?"</string>
+    <string msgid="4786987111228645602" name="error_syntax">"ଖରାପ ବ୍ୟଞ୍ଜକ"</string>
+    <string msgid="458040988686661801" name="error_zero_divide">"0 ଦ୍ୱାରା ବିଭାଜିତ କରିହେବ ନାହିଁ"</string>
+    <string msgid="2597237880041789948" name="exact">"(ସଟିକ୍)"</string>
+    <string msgid="2336526604226069572" name="menu_clear_history">"ଖାଲି କରନ୍ତୁ"</string>
+    <string msgid="1247477377840252234" name="menu_fraction">"ଭିନ୍ନ ଭାବେ ଉତ୍ତର ଦିଅନ୍ତୁ"</string>
+    <string msgid="9006222701220105452" name="menu_history">"ହିଷ୍ଟୋରୀ"</string>
+    <string msgid="2338520833272667740" name="menu_leading">"ଅଗ୍ରଣୀ ଅଙ୍କ ସହିତ ଉତ୍ତର ଦିଅନ୍ତୁ"</string>
+    <string msgid="1890541368064108592" name="menu_licenses">"ଓପନ୍‍ ସୋର୍ସ ଲାଇସେନ୍ସ"</string>
+    <string msgid="1146123354434332479" name="mode_deg">"deg"</string>
+    <string msgid="1434228830085760996" name="mode_rad">"rad"</string>
+    <string msgid="4331262030447527188" name="no_history">"କୌଣସି ହିଷ୍ଟୋରୀ ନାହିଁ"</string>
+    <string msgid="8344529153919268011" name="ok_remove_timeout">"ଦୀର୍ଘ ସମୟ ସମାପ୍ତିର ବ୍ୟବହାର କରନ୍ତୁ"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="2104264466812485425" name="text_copied_toast">"ଟେକ୍ସଟ୍ କପୀ ହେଲା"</string>
+    <string msgid="5461892570729418573" name="timeout">"Value may be infinite or undefined. ମୂଲ୍ୟ, ଅସୀମିତ କିମ୍ୱା ଅପରିଭାଷିତ ହୋଇପାରେ।"</string>
+    <string msgid="2442754548537900591" name="title_current_expression">"ସାମ୍ପ୍ରତିକ ବ୍ୟଞ୍ଜକ"</string>
+    <string msgid="7820912156315181539" name="title_history">"ହିଷ୍ଟୋରୀ"</string>
+</resources>
