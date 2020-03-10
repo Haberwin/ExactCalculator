@@ -32,7 +32,7 @@ public class CalculatorHelper {
     private static CalculatorHelper mInstance = null;
     private static final int SHORT_TIMEOUT = 1000;
     private static final int LONG_TIMEOUT = 2000;
-    public static final String PACKAGE_NAME = "com.android.calculator2";
+    static final String PACKAGE_NAME = "com.android.calculator2";
     public static final String APP_NAME = "Calculator";
     public static final String TEST_TAG = "CalculatorTests";
     public final int TIMEOUT = 500;
@@ -46,28 +46,28 @@ public class CalculatorHelper {
        //mLauncherStrategy = LauncherStrategyFactory.getInstance(mDevice).getLauncherStrategy();
     }
 
-    public static CalculatorHelper getInstance(UiDevice device, Context context) {
+    static CalculatorHelper getInstance(UiDevice device, Context context) {
         if (mInstance == null) {
         mInstance = new CalculatorHelper(device, context);
       }
         return mInstance;
     }
 
-    public void launchApp(String packageName, String appName) {
+    void launchApp(String packageName, String appName) {
         if (!mDevice.hasObject(By.pkg(packageName).depth(0))) {
         //mLauncherStrategy.launch(appName, packageName);
       }
     }
 
-    public void clickButton(String resource_id) {
+    void clickButton(String resource_id) {
 //        UiObject2 button = mDevice.wait(
 //            Until.findObject(By.res(PACKAGE_NAME, resource_id)),
 //                LONG_TIMEOUT);
-//        Assert.assertNotNull("Element not found or pressed", button);
+//        assertNotNull("Element not found or pressed", button);
 //        button.click();
-        clickButton(resource_id,1);
+        clickButton(resource_id,0);
     }
-    public void clickButton(String resource_id,long duration) {
+    void clickButton(String resource_id,long duration) {
         UiObject2 button = mDevice.wait(
                 Until.findObject(By.res(PACKAGE_NAME, resource_id)),
                 LONG_TIMEOUT);
@@ -75,7 +75,7 @@ public class CalculatorHelper {
         button.click(duration);
     }
 
-    public void setToggleMode(String toggleModeText){
+    void setToggleMode(String toggleModeText){
         UiObject2 toggleMode = mDevice.wait(
                 Until.findObject(By.res(PACKAGE_NAME, "toggle_mode")),
                 SHORT_TIMEOUT);
@@ -84,7 +84,7 @@ public class CalculatorHelper {
         }
         assertNotEquals(toggleModeText,toggleMode.getText());
     }
-    public void setToggleInv(Boolean isToggleInv){
+    void setToggleInv(Boolean isToggleInv){
         UiObject2 toggleInv = mDevice.wait(
                 Until.findObject(By.res(PACKAGE_NAME, "toggle_inv")),
                 SHORT_TIMEOUT);
@@ -93,27 +93,31 @@ public class CalculatorHelper {
         }
         assertEquals("Inv mode was wrong",isToggleInv,toggleInv.isSelected());
     }
+    UiObject2 getObjectByResourceId(String resourceId){
+        return mDevice.wait(
+                Until.findObject(By.res(PACKAGE_NAME,resourceId)), SHORT_TIMEOUT);
+    }
 
 
 
 
-    public void performCalculation(String input1, String operator, String input2) {
+    void performCalculation(String input1, String operator, String input2) {
         clickButton(input1);
         clickButton(operator);
         clickButton(input2);
         clickButton("eq");
     }
 
-    public void pressLongDigits() {
+    void pressLongDigits() {
       for (int i=1; i<10; i++)    clickButton("digit_"+i);
     }
 
-    public void pressNumber100000() {
+    void pressNumber100000() {
         clickButton("digit_1");
         for (int i=0; i<5; i++)   clickButton("digit_0");
     }
 
-    public String getResultText(String result) {
+    String getResultText(String result) {
         UiObject2 resultText = mDevice.wait(
             Until.findObject(By.res(PACKAGE_NAME, result)),
                 LONG_TIMEOUT);
@@ -121,7 +125,7 @@ public class CalculatorHelper {
         return resultText.getText();
     }
 
-    public void clearResults(String result) {
+    void clearResults(String result) {
         UiObject2 resultText = mDevice.wait(
               Until.findObject(By.res(PACKAGE_NAME, result)),
                   SHORT_TIMEOUT);
@@ -129,7 +133,7 @@ public class CalculatorHelper {
         resultText.clear();
     }
 
-    public void scrollResults(String result,Direction direction_start,Direction direction_recover) {
+    void scrollResults(String result, Direction direction_start, Direction direction_recover) {
         UiObject2 resultText = mDevice.wait(
             Until.findObject(By.res(PACKAGE_NAME, result)),
                   SHORT_TIMEOUT);
@@ -140,7 +144,7 @@ public class CalculatorHelper {
         resultText.swipe(direction_recover, 1.0f, 5000);
     }
 
-    public void showAdvancedPad(){
+    void showAdvancedPad(){
         UiObject2 padAdvanced = mDevice.wait(
               Until.findObject(By.res(PACKAGE_NAME, "pad_advanced")),
                   SHORT_TIMEOUT);
@@ -151,11 +155,15 @@ public class CalculatorHelper {
         mDevice.waitForIdle();
     }
 
-    public void dismissAdvancedPad() {
+    void dismissAdvancedPad() {
         UiObject2 padAdvanced = mDevice.wait(
               Until.findObject(By.res(PACKAGE_NAME, "pad_advanced")),
                   SHORT_TIMEOUT);
         padAdvanced.swipe(Direction.RIGHT, 1.0f);
         mDevice.waitForIdle();
+    }
+
+    void pressBack() {
+        mDevice.pressBack();
     }
 }

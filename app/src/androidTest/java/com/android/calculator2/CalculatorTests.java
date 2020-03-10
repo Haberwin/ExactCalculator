@@ -70,6 +70,42 @@ public class CalculatorTests {
         mDevice.unfreezeRotation();
     }
 
+    @Test
+    //无输入时点击加号
+    public void testInputStartWithAdd() {
+        mCalculatorHelper.clickButton("op_add");
+        assertNull(mCalculatorHelper.getResultText("formula"));
+    }
+
+    @Test
+    //无输入时点击减号
+    public void testInputStartWithSub() {
+        mCalculatorHelper.clickButton("op_sub");
+        assertNotNull(mCalculatorHelper.getResultText("formula"));
+        assertEquals("Cannot start with '-'", "−", mCalculatorHelper.getResultText("formula"));
+    }
+
+    @Test
+    //无输入时点击乘号
+    public void testInputStartWithMul() {
+        mCalculatorHelper.clickButton("op_mul");
+        assertNull(mCalculatorHelper.getResultText("formula"));
+    }
+
+    @Test
+    //无输入时点击除号
+    public void testInputStartWithDiv() {
+        mCalculatorHelper.clickButton("op_div");
+        assertNull(mCalculatorHelper.getResultText("formula"));
+    }
+
+    @Test
+    //无输入时点击等于号
+    public void testInputStartWithEqual() {
+        mCalculatorHelper.clickButton("eq");
+        assertNull(mCalculatorHelper.getResultText("formula"));
+    }
+
 
     @Test
     //Test to verify basic addition functionality
@@ -101,6 +137,15 @@ public class CalculatorTests {
         mCalculatorHelper.clickButton("digit_0");
         mCalculatorHelper.clickButton("eq");
         assertEquals("Results are wrong", "1", mCalculatorHelper.getResultText("result"));
+    }
+
+    @Test
+    //测试持续输入小数点
+    public void testContinueInputPoint() {
+        for (int i = 0; i < 10; i++) {
+            mCalculatorHelper.clickButton("dec_point");
+        }
+        assertEquals("Input points fail", ".", mCalculatorHelper.getResultText("formula"));
     }
 
     @Test
@@ -180,9 +225,10 @@ public class CalculatorTests {
         mCalculatorHelper.clickButton("eq");
         assertEquals("Results are wrong", "2", mCalculatorHelper.getResultText("result"));
     }
+
     @Test
     //测试阶乘运算
-    public void testFactorial(){
+    public void testFactorial() {
         mCalculatorHelper.clickButton("digit_1");
         mCalculatorHelper.clickButton("digit_0");
         mCalculatorHelper.showAdvancedPad();
@@ -193,9 +239,10 @@ public class CalculatorTests {
         assertEquals("Results are wrong", "3,628,800", mCalculatorHelper.getResultText("result"));
 
     }
+
     @Test
     //测试开方
-    public void testSqrt(){
+    public void testSqrt() {
 
         mCalculatorHelper.showAdvancedPad();
         mCalculatorHelper.clickButton("op_sqrt");
@@ -207,9 +254,10 @@ public class CalculatorTests {
         assertEquals("Results are wrong", "7", mCalculatorHelper.getResultText("result"));
 
     }
+
     @Test
     //测试乘方
-    public void testPower(){
+    public void testPower() {
         mCalculatorHelper.clickButton("digit_2");
 
         mCalculatorHelper.showAdvancedPad();
@@ -221,9 +269,10 @@ public class CalculatorTests {
         assertEquals("Results are wrong", "512", mCalculatorHelper.getResultText("result"));
 
     }
+
     @Test
     //测试括号
-    public void testParentheses(){
+    public void testParentheses() {
         mCalculatorHelper.clickButton("digit_8");
         mCalculatorHelper.clickButton("op_mul");
 
@@ -243,9 +292,10 @@ public class CalculatorTests {
 
 
     }
+
     @Test
     //测试反正弦函数
-    public void testArcSin(){
+    public void testArcSin() {
         mCalculatorHelper.showAdvancedPad();
         mCalculatorHelper.setToggleMode("DEG");
         mCalculatorHelper.setToggleInv(true);
@@ -258,7 +308,7 @@ public class CalculatorTests {
 
     @Test
     //测试反余弦函数
-    public void testArcCos(){
+    public void testArcCos() {
         mCalculatorHelper.showAdvancedPad();
         mCalculatorHelper.setToggleMode("DEG");
         mCalculatorHelper.setToggleInv(true);
@@ -271,7 +321,7 @@ public class CalculatorTests {
 
     @Test
     //测试反正切函数
-    public void testArcTan(){
+    public void testArcTan() {
         mCalculatorHelper.showAdvancedPad();
         mCalculatorHelper.setToggleMode("DEG");
         mCalculatorHelper.setToggleInv(true);
@@ -281,9 +331,10 @@ public class CalculatorTests {
         mCalculatorHelper.clickButton("eq");
         assertEquals("Results are wrong", "45", mCalculatorHelper.getResultText("result"));
     }
+
     @Test
     //测试e的幂运算
-    public void testExp(){
+    public void testExp() {
         mCalculatorHelper.showAdvancedPad();
         mCalculatorHelper.setToggleInv(true);
         mCalculatorHelper.clickButton("fun_exp");
@@ -292,9 +343,10 @@ public class CalculatorTests {
         mCalculatorHelper.clickButton("eq");
         assertEquals("Results are wrong", "7.3890560989306", mCalculatorHelper.getResultText("result"));
     }
+
     @Test
     //测试10的幂运算
-    public void test10Pow(){
+    public void test10Pow() {
         mCalculatorHelper.showAdvancedPad();
         mCalculatorHelper.setToggleInv(true);
         mCalculatorHelper.clickButton("fun_10pow");
@@ -303,9 +355,10 @@ public class CalculatorTests {
         mCalculatorHelper.clickButton("eq");
         assertEquals("Results are wrong", "100,000", mCalculatorHelper.getResultText("result"));
     }
+
     @Test
     //测试平方运算
-    public void testSquare(){
+    public void testSquare() {
         mCalculatorHelper.clickButton("digit_2");
 
         mCalculatorHelper.clickButton("digit_5");
@@ -342,16 +395,15 @@ public class CalculatorTests {
     public void testClearButton() {
         mCalculatorHelper.performCalculation("digit_9", "op_mul", "digit_9");
         mCalculatorHelper.clickButton("clr");
-        UiObject2 deleteButton = mDevice.wait(
-                Until.findObject(By.res(mCalculatorHelper.PACKAGE_NAME, "del")),
-                SHORT_TIMEOUT);
-        if (deleteButton != null) { //Verify the button is changed to delete after clear
-            assertNull(mCalculatorHelper.getResultText("result"));
-        }
+
+        assertNotNull(mCalculatorHelper.getObjectByResourceId("del"));
+
+        assertNull(mCalculatorHelper.getResultText("result"));
+
     }
 
     @Test
-
+    //测试长按删除键
     public void testLongPressDeleteButton() {
         mCalculatorHelper.pressLongDigits();
 
@@ -359,6 +411,18 @@ public class CalculatorTests {
         mCalculatorHelper.clickButton("del", 1000);
         assertNull(mCalculatorHelper.getResultText("formula"));
 
+    }
+
+    @Test
+    //测试短按删除键
+    public void testDeleteButton() {
+        mCalculatorHelper.pressLongDigits();
+        assertEquals("Input Error", "123,456,789", mCalculatorHelper.getResultText("formula"));
+
+        for (int i = 0; i < 5; i++) {
+            mCalculatorHelper.clickButton("del");
+        }
+        assertEquals("Delete fail", "1,234", mCalculatorHelper.getResultText("formula"));
     }
 
     @Test
@@ -389,6 +453,7 @@ public class CalculatorTests {
     public void testLandScape() throws RemoteException {
         mDevice.unfreezeRotation();
         mDevice.setOrientationLeft();
+        mDevice.waitForIdle();
         mCalculatorHelper.pressLongDigits();
         mCalculatorHelper.clickButton("op_mul");
         mCalculatorHelper.pressLongDigits();
@@ -425,18 +490,16 @@ public class CalculatorTests {
         mCalculatorHelper.dismissAdvancedPad();
         mCalculatorHelper.clickButton("eq");
         mDevice.waitForIdle();
-        UiObject2 alertTitle = mDevice.wait(
-                Until.findObject(By.res("android:id/alertTitle")), SHORT_TIMEOUT);
+        UiObject2 alertTitle=mDevice.wait(Until.findObject(By.res("android:id/alertTitle")),SHORT_TIMEOUT);
         assertNotNull("Alert pop up not found", alertTitle);
-        UiObject2 msgText = mDevice.wait(
-                Until.findObject(By.res(mCalculatorHelper.PACKAGE_NAME, "message")),
-                SHORT_TIMEOUT);
+
         mDevice.waitForIdle();
-        assertEquals("Message not found", "Value may be infinite or undefined.", msgText.getText());
-        UiObject2 dismissButton = mDevice.wait(
-                Until.findObject(By.res("android:id/button2")), SHORT_TIMEOUT);
-        assertNotNull("Dismiss button not found", dismissButton);
-        dismissButton.click();
+        UiObject2 message=mCalculatorHelper.getObjectByResourceId("message");
+        assertEquals("Message not found", "Value may be infinite or undefined.", message.getText());
+        UiObject2 button_Dismiss=mDevice.wait(Until.findObject(By.res("android:id/button2")),SHORT_TIMEOUT);
+        assertNotNull("Dismiss button not found", button_Dismiss);
+        //mCalculatorHelper.clickButton("android:id/button2");
+        button_Dismiss.click();
         mCalculatorHelper.clearResults("formula");
     }
 
@@ -446,20 +509,20 @@ public class CalculatorTests {
     public void testDegRadSwitch() {
         mCalculatorHelper.showAdvancedPad();
 
-        UiObject2 toggleButton = mDevice.wait(
-                Until.findObject(By.res(mCalculatorHelper.PACKAGE_NAME, "toggle_mode")),
-                SHORT_TIMEOUT);
-        assertNotNull("Toggle Button not found", toggleButton);
+//        UiObject2 toggleButton = mDevice.wait(
+//                Until.findObject(By.res(mCalculatorHelper.PACKAGE_NAME, "toggle_mode")),
+//                SHORT_TIMEOUT);
+        assertNotNull("Toggle Button not found", mCalculatorHelper.getObjectByResourceId("toggle_mode"));
 
-        UiObject2 modeBox = mDevice.wait(
-                Until.findObject(By.res(mCalculatorHelper.PACKAGE_NAME, "mode")),
-                SHORT_TIMEOUT);
-        assertNotNull("Mode Box not found", modeBox);
+//        UiObject2 modeBox = mDevice.wait(
+//                Until.findObject(By.res(mCalculatorHelper.PACKAGE_NAME, "mode")),
+//                SHORT_TIMEOUT);
+        assertNotNull("Mode Box not found", mCalculatorHelper.getObjectByResourceId("mode"));
 
         for (int i = 0; i < 3; i++) { //Test the toggle button 3 times
             mCalculatorHelper.clickButton("toggle_mode");
             mDevice.waitForIdle();
-            assertNotSame("Switch Failed", toggleButton.getText(), modeBox.getText());
+            assertNotSame("Switch Failed", mCalculatorHelper.getResultText("toggle_mode"), mCalculatorHelper.getResultText("mode"));
         }
         mCalculatorHelper.dismissAdvancedPad();
 
