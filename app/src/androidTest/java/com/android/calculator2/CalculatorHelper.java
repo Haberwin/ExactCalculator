@@ -17,18 +17,16 @@
 package com.android.calculator2;
 
 import android.content.Context;
-import android.content.Intent;
-//import android.support.test.launcherhelper.ILauncherStrategy;
-//import android.support.test.launcherhelper.LauncherStrategyFactory;
+
 import androidx.test.uiautomator.By;
 import androidx.test.uiautomator.Direction;
 import androidx.test.uiautomator.UiDevice;
 import androidx.test.uiautomator.UiObject2;
-import androidx.test.uiautomator.UiObject;
 import androidx.test.uiautomator.Until;
-import androidx.test.uiautomator.UiSelector;
-import android.util.Log;
-import junit.framework.Assert;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class CalculatorHelper {
     private static CalculatorHelper mInstance = null;
@@ -38,7 +36,7 @@ public class CalculatorHelper {
     public static final String APP_NAME = "Calculator";
     public static final String TEST_TAG = "CalculatorTests";
     public final int TIMEOUT = 500;
-    private Context mContext = null;
+    private Context mContext;
     private UiDevice mDevice = null;
     //public ILauncherStrategy mLauncherStrategy;
 
@@ -62,12 +60,42 @@ public class CalculatorHelper {
     }
 
     public void clickButton(String resource_id) {
-        UiObject2 button = mDevice.wait(
-            Until.findObject(By.res(PACKAGE_NAME, resource_id)),
-                LONG_TIMEOUT);
-        Assert.assertNotNull("Element not found or pressed", button);
-        button.click();
+//        UiObject2 button = mDevice.wait(
+//            Until.findObject(By.res(PACKAGE_NAME, resource_id)),
+//                LONG_TIMEOUT);
+//        Assert.assertNotNull("Element not found or pressed", button);
+//        button.click();
+        clickButton(resource_id,1);
     }
+    public void clickButton(String resource_id,long duration) {
+        UiObject2 button = mDevice.wait(
+                Until.findObject(By.res(PACKAGE_NAME, resource_id)),
+                LONG_TIMEOUT);
+        assertNotNull("Element not found or pressed", button);
+        button.click(duration);
+    }
+
+    public void setToggleMode(String toggleModeText){
+        UiObject2 toggleMode = mDevice.wait(
+                Until.findObject(By.res(PACKAGE_NAME, "toggle_mode")),
+                SHORT_TIMEOUT);
+        if (toggleMode.getText().equals(toggleModeText)) {
+            toggleMode.click();
+        }
+        assertNotEquals(toggleModeText,toggleMode.getText());
+    }
+    public void setToggleInv(Boolean isToggleInv){
+        UiObject2 toggleInv = mDevice.wait(
+                Until.findObject(By.res(PACKAGE_NAME, "toggle_inv")),
+                SHORT_TIMEOUT);
+        if (toggleInv.isSelected()^isToggleInv) {
+            toggleInv.click();
+        }
+        assertEquals("Inv mode was wrong",isToggleInv,toggleInv.isSelected());
+    }
+
+
+
 
     public void performCalculation(String input1, String operator, String input2) {
         clickButton(input1);
@@ -89,7 +117,7 @@ public class CalculatorHelper {
         UiObject2 resultText = mDevice.wait(
             Until.findObject(By.res(PACKAGE_NAME, result)),
                 LONG_TIMEOUT);
-        Assert.assertNotNull("Result text box not found", resultText);
+        assertNotNull("Result text box not found", resultText);
         return resultText.getText();
     }
 
@@ -97,19 +125,19 @@ public class CalculatorHelper {
         UiObject2 resultText = mDevice.wait(
               Until.findObject(By.res(PACKAGE_NAME, result)),
                   SHORT_TIMEOUT);
-        Assert.assertNotNull("Result box not found", resultText);
+        assertNotNull("Result box not found", resultText);
         resultText.clear();
     }
 
-    public void scrollResults(String result) {
+    public void scrollResults(String result,Direction direction_start,Direction direction_recover) {
         UiObject2 resultText = mDevice.wait(
             Until.findObject(By.res(PACKAGE_NAME, result)),
                   SHORT_TIMEOUT);
-        Assert.assertNotNull("Result text box not found", resultText);
-        resultText.swipe(Direction.LEFT, 1.0f, 5000);
-        Assert.assertEquals("Scroll failed","…41578750190521", getResultText("result"));
+        assertNotNull("Result text box not found", resultText);
+        resultText.swipe(direction_start, 1.0f, 5000);
+        assertEquals("Scroll failed","…41578750190521", getResultText("result"));
         mDevice.waitForIdle();
-        resultText.swipe(Direction.RIGHT, 1.0f, 5000);
+        resultText.swipe(direction_recover, 1.0f, 5000);
     }
 
     public void showAdvancedPad(){
@@ -118,7 +146,7 @@ public class CalculatorHelper {
                   SHORT_TIMEOUT);
             if (padAdvanced.isClickable()) {//don't click if already pad opened
                 padAdvanced.click();
-                Assert.assertNotNull("Advanced pad not found", padAdvanced);
+                assertNotNull("Advanced pad not found", padAdvanced);
             }
         mDevice.waitForIdle();
     }
