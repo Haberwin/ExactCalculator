@@ -49,7 +49,6 @@ public class CalculatorTests {
     private static final int SHORT_TIMEOUT = 1000;
     private static final int LONG_TIMEOUT = 2000;
     private UiDevice mDevice = null;
-    private Context mContext;
 
     @Rule
     public ActivityTestRule<Calculator> activityRule =
@@ -59,7 +58,7 @@ public class CalculatorTests {
     @Before
     public void setUp() throws Exception {
         mDevice = UiDevice.getInstance(getInstrumentation());
-        mContext = getInstrumentation().getContext();
+        Context mContext = getInstrumentation().getContext();
         mDevice.setOrientationNatural();
         //mDevice.pressHome();
         mCalculatorHelper = CalculatorHelper.getInstance(mDevice, mContext);
@@ -449,7 +448,7 @@ public class CalculatorTests {
     }
 
     @Test
-
+    //测试横竖屏切换
     public void testLandScape() throws RemoteException {
         mDevice.unfreezeRotation();
         mDevice.setOrientationLeft();
