@@ -10,29 +10,32 @@ android {
     useLibrary 'android.test.mock'
 
 
+
+
     defaultConfig{
         minSdkVersion 27
         targetSdkVersion 29
         applicationId "com.android.calculator2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-    }
-    signingConfigs{
 
-        release {
-            storeFile file('/home/levi/tools/My-sign/aosp-platform.jks')
-            storePassword 'android'
-            keyAlias 'aosp-platform'
-            keyPassword 'android'
-        }
-
-        debug {
-            storeFile file("/home/levi/tools/My-sign/aosp-platform.jks")
-            storePassword 'android'
-            keyAlias 'aosp-platform'
-            keyPassword 'android'
-        }
     }
+//    signingConfigs{
+//
+//        release {
+//            storeFile file('/home/levi/tools/My-sign/aosp-platform.jks')
+//            storePassword 'android'
+//            keyAlias 'aosp-platform'
+//            keyPassword 'android'
+//        }
+//
+//        debug {
+//            storeFile file("/home/levi/tools/My-sign/aosp-platform.jks")
+//            storePassword 'android'
+//            keyAlias 'aosp-platform'
+//            keyPassword 'android'
+//        }
+//    }
     testOptions {
         // Changes the directory where Gradle saves test reports. By default, Gradle saves test reports
         // in the path_to_your_project/module_name/build/outputs/reports/ directory.
@@ -49,7 +52,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
-            signingConfig signingConfigs.release
+//            signingConfig signingConfigs.release
         }
     }
     compileOptions {

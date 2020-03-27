@@ -1,7 +1,7 @@
-#Tue Mar 10 22:26:00 CST 2020
-base.0=/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/out/classes.dex
+#Fri Mar 27 10:46:14 CST 2020
+base.0=/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/out/classes.dex
+base.1=/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/out/classes.dex

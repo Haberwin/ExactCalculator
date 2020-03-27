@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml",
+            "outputFile": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml",
             "map": [
                 {
-                    "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/values-hy/values-hy.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "65",
-                        "startColumns": "4",
-                        "startOffsets": "5332",
-                        "endColumns": "100",
-                        "endOffsets": "5428"
-                    }
-                },
-                {
-                    "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/values-hy/strings.xml",
+                    "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/values-hy/strings.xml",
                     "from": {
                         "startLines": "19,74,69,24,23,20,25,62,55,26,27,28,56,54,59,39,36,37,38,31,40,32,33,34,35,57,58,29,50,51,81,61,42,43,44,45,46,47,41,48,49,60,30,52,53,83,82,72,65,63,66,64,67,73,79,76,78,75,77,21,22,85,71,68,70,84,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "55,129,218,308,381,447,517,583,681,754,838,913,990,1063,1139,1221,1317,1409,1499,1590,1670,1761,1847,1927,2005,2084,2189,2291,2373,2463,2547,2634,2737,2817,2896,2977,3060,3136,3215,3294,3381,3458,3541,3622,3717,3808,3918,4008,4080,4162,4237,4321,4399,4498,4571,4655,4741,4824,4909,5001,5072,5143,5228,5433,5526,5640,5748",
                         "endColumns": "73,88,89,72,65,69,65,97,72,83,74,76,72,75,81,95,91,89,90,79,90,85,79,77,78,104,101,81,89,83,86,102,79,78,80,82,75,78,78,86,76,82,80,94,90,109,89,71,81,74,83,77,98,72,83,85,82,84,91,70,70,84,103,92,113,107,83",
                         "endOffsets": "124,213,303,376,442,512,578,676,749,833,908,985,1058,1134,1216,1312,1404,1494,1585,1665,1756,1842,1922,2000,2079,2184,2286,2368,2458,2542,2629,2732,2812,2891,2972,3055,3131,3210,3289,3376,3453,3536,3617,3712,3803,3913,4003,4075,4157,4232,4316,4394,4493,4566,4650,4736,4819,4904,4996,5067,5138,5223,5327,5521,5635,5743,5827"
+                    }
+                },
+                {
+                    "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/1cd7eff88f5e86d0249af2958bf465f0/core-1.1.0/res/values-hy/values-hy.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "65",
+                        "startColumns": "4",
+                        "startOffsets": "5332",
+                        "endColumns": "100",
+                        "endOffsets": "5428"
                     }
                 }
             ]

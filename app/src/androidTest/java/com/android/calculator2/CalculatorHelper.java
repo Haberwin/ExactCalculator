@@ -65,7 +65,7 @@ public class CalculatorHelper {
 //                LONG_TIMEOUT);
 //        assertNotNull("Element not found or pressed", button);
 //        button.click();
-        clickButton(resource_id,0);
+        clickButton(resource_id,1);
     }
     void clickButton(String resource_id,long duration) {
         UiObject2 button = mDevice.wait(

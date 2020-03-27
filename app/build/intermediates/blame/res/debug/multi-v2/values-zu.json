@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml",
+            "outputFile": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml",
             "map": [
                 {
-                    "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/values-zu/values-zu.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "65",
-                        "startColumns": "4",
-                        "startOffsets": "5475",
-                        "endColumns": "100",
-                        "endOffsets": "5571"
-                    }
-                },
-                {
-                    "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/values-zu/strings.xml",
+                    "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/values-zu/strings.xml",
                     "from": {
                         "startLines": "19,74,69,24,23,20,25,62,55,26,27,28,56,54,59,39,36,37,38,31,40,32,33,34,35,57,58,29,50,51,81,61,42,43,44,45,46,47,41,48,49,60,30,52,53,83,82,72,65,63,66,64,67,73,79,76,78,75,77,21,22,85,71,68,70,84,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "55,130,225,330,405,471,541,608,706,777,866,941,1024,1096,1175,1261,1365,1454,1541,1631,1709,1804,1892,1973,2049,2130,2226,2320,2414,2502,2589,2683,2790,2871,2951,3033,3116,3196,3274,3354,3443,3518,3605,3697,3794,3891,3985,4077,4151,4236,4321,4409,4493,4596,4671,4753,4850,4929,5032,5137,5208,5279,5363,5576,5671,5780,5881",
                         "endColumns": "74,94,104,74,65,69,66,97,70,88,74,82,71,78,85,103,88,86,89,77,94,87,80,75,80,95,93,93,87,86,93,106,80,79,81,82,79,77,79,88,74,86,91,96,96,93,91,73,84,84,87,83,102,74,81,96,78,102,104,70,70,83,111,94,108,100,79",
                         "endOffsets": "125,220,325,400,466,536,603,701,772,861,936,1019,1091,1170,1256,1360,1449,1536,1626,1704,1799,1887,1968,2044,2125,2221,2315,2409,2497,2584,2678,2785,2866,2946,3028,3111,3191,3269,3349,3438,3513,3600,3692,3789,3886,3980,4072,4146,4231,4316,4404,4488,4591,4666,4748,4845,4924,5027,5132,5203,5274,5358,5470,5666,5775,5876,5956"
+                    }
+                },
+                {
+                    "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/1cd7eff88f5e86d0249af2958bf465f0/core-1.1.0/res/values-zu/values-zu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "65",
+                        "startColumns": "4",
+                        "startOffsets": "5475",
+                        "endColumns": "100",
+                        "endOffsets": "5571"
                     }
                 }
             ]

@@ -453,7 +453,7 @@ public class CalculatorTests {
     public void testLandScape() throws RemoteException {
         mDevice.unfreezeRotation();
         mDevice.setOrientationLeft();
-        mDevice.waitForIdle();
+        mDevice.waitForWindowUpdate(CalculatorHelper.PACKAGE_NAME,LONG_TIMEOUT);
         mCalculatorHelper.pressLongDigits();
         mCalculatorHelper.clickButton("op_mul");
         mCalculatorHelper.pressLongDigits();
@@ -490,13 +490,13 @@ public class CalculatorTests {
         mCalculatorHelper.dismissAdvancedPad();
         mCalculatorHelper.clickButton("eq");
         mDevice.waitForIdle();
-        UiObject2 alertTitle=mDevice.wait(Until.findObject(By.res("android:id/alertTitle")),SHORT_TIMEOUT);
+        UiObject2 alertTitle=mDevice.wait(Until.findObject(By.res("android:id/alertTitle")),LONG_TIMEOUT);
         assertNotNull("Alert pop up not found", alertTitle);
 
         mDevice.waitForIdle();
         UiObject2 message=mCalculatorHelper.getObjectByResourceId("message");
         assertEquals("Message not found", "Value may be infinite or undefined.", message.getText());
-        UiObject2 button_Dismiss=mDevice.wait(Until.findObject(By.res("android:id/button2")),SHORT_TIMEOUT);
+        UiObject2 button_Dismiss=mDevice.wait(Until.findObject(By.res("android:id/button2")),LONG_TIMEOUT);
         assertNotNull("Dismiss button not found", button_Dismiss);
         //mCalculatorHelper.clickButton("android:id/button2");
         button_Dismiss.click();

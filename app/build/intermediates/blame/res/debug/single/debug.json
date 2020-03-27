@@ -1,230 +1,122 @@
 [
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_activity_calculator_tablet_port.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/layout/activity_calculator_tablet_port.xml"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/layout_activity_calculator_port.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/layout/activity_calculator_port.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/menu_menu_result.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/menu/menu_result.xml"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/menu_menu_result.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/menu/menu_result.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_calculator.png.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/mipmap-mdpi/ic_launcher_calculator.png"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/layout_empty_history_view.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/layout/empty_history_view.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_pad_advanced_4x4.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/layout/pad_advanced_4x4.xml"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/layout_display_one_line.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/layout/display_one_line.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/layout/notification_template_part_chronometer.xml"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/layout_activity_calculator_tablet_port.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/layout/activity_calculator_tablet_port.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/layout_pad_operator_two_col.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/layout/pad_operator_two_col.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_pad_operator_two_col.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/layout/pad_operator_two_col.xml"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/layout_pad_numeric.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/layout/pad_numeric.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/menu_activity_calculator.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/menu/activity_calculator.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/layout-v21/notification_action.xml"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/drawable_pad_button_background.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/drawable/pad_button_background.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_calculator.png.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/mipmap-xhdpi/ic_launcher_calculator.png"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/drawable_pad_button_advanced_background.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/drawable/pad_button_advanced_background.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_activity_calculator_land.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/layout/activity_calculator_land.xml"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_calculator.png.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/mipmap-hdpi/ic_launcher_calculator.png"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable/notification_bg.xml"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/layout_pad_advanced_4x4.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/layout/pad_advanced_4x4.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/layout_history_item.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/layout/history_item.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/layout_dialog_message.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/layout/dialog_message.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_calculator.png.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/mipmap-xxxhdpi/ic_launcher_calculator.png"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/menu_fragment_history.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/menu/fragment_history.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_pad_advanced_3x5.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/layout/pad_advanced_3x5.xml"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/drawable_ic_history_grey600_48dp.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/drawable/ic_history_grey600_48dp.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_calculator.png.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/mipmap-mdpi/ic_launcher_calculator.png"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_display_two_line.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/layout/display_two_line.xml"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/layout_activity_calculator_main.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/layout/activity_calculator_main.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/layout_activity_calculator_land.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/layout/activity_calculator_land.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_calculator.png.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/mipmap-xhdpi/ic_launcher_calculator.png"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable_pad_button_background.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/drawable/pad_button_background.xml"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/menu_menu_formula.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/menu/menu_formula.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_toolbar.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/layout/toolbar.xml"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_calculator.png.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/mipmap-xxxhdpi/ic_launcher_calculator.png"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_history_item.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/layout/history_item.xml"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/layout_display_two_line.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/layout/display_two_line.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/layout_pad_operator_one_col.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/layout/pad_operator_one_col.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_calculator.png.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/mipmap-xxhdpi/ic_launcher_calculator.png"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_custom_dialog.xml.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/layout/custom_dialog.xml"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/layout_pad_advanced_3x5.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/layout/pad_advanced_3x5.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_empty_history_view.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/layout/empty_history_view.xml"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/layout_pad_advanced_5x3.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/layout/pad_advanced_5x3.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable/notification_bg_low.xml"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/layout_toolbar.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/layout/toolbar.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_fragment_history.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/layout/fragment_history.xml"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/layout_fragment_history.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/layout/fragment_history.xml"
     },
     {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable-mdpi-v4/notification_bg_normal.9.png"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_dialog_message.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/layout/dialog_message.xml"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable_pad_button_inverse_background.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/drawable/pad_button_inverse_background.xml"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable_pad_button_advanced_background.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/drawable/pad_button_advanced_background.xml"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_display_one_line.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/layout/display_one_line.xml"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable/notification_icon_background.xml"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/menu_menu_formula.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/menu/menu_formula.xml"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable_ic_history_grey600_48dp.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/drawable/ic_history_grey600_48dp.xml"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_pad_operator_one_col.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/layout/pad_operator_one_col.xml"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/menu_activity_calculator.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/menu/activity_calculator.xml"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable-v21/notification_action_background.xml"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable/notification_tile_bg.xml"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_activity_calculator_port.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/layout/activity_calculator_port.xml"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_calculator.png.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/mipmap-xxhdpi/ic_launcher_calculator.png"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_pad_advanced_5x3.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/layout/pad_advanced_5x3.xml"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_pad_numeric.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/layout/pad_numeric.xml"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/layout/notification_template_part_time.xml"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/menu_fragment_history.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/menu/fragment_history.xml"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/layout_activity_calculator_main.xml.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/layout/activity_calculator_main.xml"
-    },
-    {
-        "merged": "/home/levi/AndroidStudioProjects/ExactCalculator/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_calculator.png.flat",
-        "source": "/home/levi/AndroidStudioProjects/ExactCalculator/app/src/main/res/mipmap-hdpi/ic_launcher_calculator.png"
+        "merged": "/home/levi/Test/Calculator/ExactCalculator/app/build/intermediates/res/merged/debug/drawable_pad_button_inverse_background.xml.flat",
+        "source": "/home/levi/Test/Calculator/ExactCalculator/app/src/main/res/drawable/pad_button_inverse_background.xml"
     }
 ]
